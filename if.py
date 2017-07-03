@@ -1,5 +1,5 @@
 #!/usr/bin/python
-#encoding: utf8
+#coding: utf8
 
 
 _username = 'alvin'

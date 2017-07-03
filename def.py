@@ -8,4 +8,4 @@ def aa(a,b):
     else:
         print ("hello{b}".format(b=b))
 
-print aa(21,'alvin')
+aa(21,'alvin')
