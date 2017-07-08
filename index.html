@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <title>wing☞系统二次元|一个系统管理员的集聚地</title>
+  
+  
+  <meta name="keywords" content="Linux,运维,windows">
+  <meta name="description" content="熟练任何技能，都是一场孤独的修炼和闭关">
+      
+  
+<link rel="shortcut icon" href="/public//images/favicon.ico">
+  <link rel="stylesheet" href="/public//plugins/layui/css/layui.css">
+  <link rel="stylesheet" href="/template/default/res/css/global.css">
+	    
+<script src="/public//plugins/layui/layui.js"></script>
+</head>
+<body>
+<div class="header">
+  <div class="main">
+    <a class="logo" href="/default.html" title="wing☞系统二次元">wing☞系统二次元</a>
+    <div class="nav">
+    
+          <a class="nav-this" href="/default.html" target="_blank" title="Home">
+        <i class="iconfont icon-wenda" ></i>首页      </a>
+          </div>
+    
+    <div class="nav-user">
+    
+            <!-- 未登入状态 -->
+      <a class="unlogin"  href="/logining.html"><i class="iconfont icon-touxiang"></i></a>
+      <span style="display: inline-block;position: relative;top: -2px;left: auto;right: 0; vertical-align: middle;"><a href="/logining.html">登入</a><a href="/reging.html">注册</a></span>
+      <p class="out-login" style="display:none">
+        <a href="" onclick="layer.msg('正在通过QQ登入', {icon:16, shade: 0.1, time:0})" class="iconfont icon-qq" title="QQ登入"></a>
+        <a href="" onclick="layer.msg('正在通过微博登入', {icon:16, shade: 0.1, time:0})" class="iconfont icon-weibo" title="微博登入"></a>
+      </p>   
+       
+    </div>
+  </div>
+</div>
+
+
+<div class="main layui-clear">
+
+
+
+
+
+
+  <div class="wrap">
+    <div class="content">
+        <div class="fly-tab fly-tab-index">
+        <span>
+          <a href="/default.html">全部</a>
+      
+          <a href="/choice.html">精帖</a>
+          <a href="/topic.html">我的帖</a>
+        </span>
+        <form action="/search.html" class="fly-search">
+        <button style="position: absolute;right: 0;top: 0px;border: 0px solid #fff;" type="submit"><i class="iconfont icon-sousuo"></i></button>
+          <input autocomplete="off" placeholder="搜索" type="text" name="ks" value="" required lay-verify="required" class="layui-input">
+        </form>
+        <a href="/fadd.html" class="layui-btn jie-add">发布帖子</a>
+      </div>
+
+
+      <ul class="fly-list fly-list-top">
+              </ul>
+      
+      <ul class="fly-list">
+           <li class="fly-list-li">
+          <a href="/home/5.html" class="fly-list-avatar">
+            <img src="/public/images/default.png" alt="Ikin_wang">
+          </a>
+          <h2 class="fly-tip">
+            <a href="/thread/2.html">史上第二帖</a>
+                       </h2>
+          <p>
+            <span><a href="/home/5.html">Ikin_wang</a></span>
+            <span>今天09:27</span>
+            <span>Linux运维</span>
+            <span class="fly-list-hint"> 
+              <i class="iconfont" title="回答">&#xe60c;</i> 1              <i class="iconfont" title="人气">&#xe60b;</i> 10            </span>
+          </p>
+        </li>
+         <li class="fly-list-li">
+          <a href="/home/2.html" class="fly-list-avatar">
+            <img src="/public/images/default.png" alt="qwerse">
+          </a>
+          <h2 class="fly-tip">
+            <a href="/thread/1.html">史上第一帖，特玛西亚</a>
+                       </h2>
+          <p>
+            <span><a href="/home/2.html">qwerse</a></span>
+            <span>今天08:12</span>
+            <span>uplooking灌水</span>
+            <span class="fly-list-hint"> 
+              <i class="iconfont" title="回答">&#xe60c;</i> 0              <i class="iconfont" title="人气">&#xe60b;</i> 21            </span>
+          </p>
+        </li>
+              </ul>
+      
+      <div class="pages"></div>
+      
+    </div>
+  </div>
+
+  <div class="edge">
+    <div class="fly-panel leifeng-rank"> 
+      <h3 class="fly-panel-title">近一月发帖榜 - TOP 12</h3>
+      <dl>
+      
+               <dd>
+          <a href="/home/2.html">
+            <img src="http://bbs.qwerse.com//public/images/default.png">
+            <cite>qwerse</cite>
+            <i>1帖子</i>
+          </a>
+        </dd>
+                <dd>
+          <a href="/home/5.html">
+            <img src="http://bbs.qwerse.com//public/images/default.png">
+            <cite>Ikin_wang</cite>
+            <i>1帖子</i>
+          </a>
+        </dd>
+              </dl>
+    </div>
+    	<div class="fly-panel fly-link leifeng-rank" style="padding-bottom: 0;"> 
+      <h3 class="fly-panel-title">版块列表</h3>
+      <ul>
+	            <li><a href="/view/1.html">windows运维(0)</a></li>
+		        <li><a href="/view/2.html">Linux运维(1)</a></li>
+		        <li><a href="/view/3.html">网络运维(0)</a></li>
+		        <li><a href="/view/4.html">uplooking灌水(1)</a></li>
+		      </ul>
+    </div>
+    <dl class="fly-panel fly-list-one"> 
+      <dt class="fly-panel-title">最近热帖</dt>
+             <dd>
+        <a href="/thread/1.html">史上第一帖，特玛西亚</a>
+        <span><i class="iconfont">&#xe60b;</i> 21</span>
+      </dd>
+              <dd>
+        <a href="/thread/2.html">史上第二帖</a>
+        <span><i class="iconfont">&#xe60b;</i> 10</span>
+      </dd>
+            </dl>
+    
+    <dl class="fly-panel fly-list-one"> 
+      <dt class="fly-panel-title">精选帖子</dt>
+          </dl>
+    
+
+  </div>
+
+</div>
+
+				
+    
+<div class="footer">
+  <p><a href="http://eadmin.top/">EasyAdmin极简社区</a> 2017 &copy; <a href="http://eadmin.top/">Eadmin.top</a></p>
+  <p>
+       </p>
+  <p>
+    
+  </p>
+    <p>
+   版权信息:亿童信息技术组  
+  </p>
+    <p>
+    
+  </p>
+</div>
+
+
+<script src="/public//js/home.js"></script>
+
+
+<!--页面JS脚本-->
+
+</body>
+</html>
