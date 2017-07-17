@@ -12,6 +12,17 @@ os.system('name="alvin"')
 #os.system('echo {na}'.format(na=name))
 #os.system('ls')
 #os.mkdir('face')
+'''
+#var = 'ok'
+#
+#os.environ['yes']=str(var)
+#os.system('echo $yes')
+
+#a=os.system('ps aux|grep asda|grep ada|grep -v grep')
+#print a
+a = os.system('ls  &>/dev/null')
+print a
+'''
 now = datetime.datetime.now()
 a=now.strftime('%Y-%m-%d %H:%M:%S')  
 print a
