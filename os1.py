@@ -13,6 +13,7 @@ os.system('name="alvin"')
 #os.system('ls')
 #os.mkdir('face')
 '''
+
 #var = 'ok'
 #
 #os.environ['yes']=str(var)
@@ -22,6 +23,20 @@ os.system('name="alvin"')
 #print a
 a = os.system('ls  &>/dev/null')
 print a
+'''
+'''
+import sys,os
+oldSterr = None
+logfile = None
+
+try:
+        logfile = open('/tmp/1.txt','w+')
+        oldStderr = sys.stderr
+        sys.stderr = logfile
+        os.system('dialog --inputbox "Please input something text:" 10 40')
+finally:
+        if logfile:
+           logfile.close()
 '''
 now = datetime.datetime.now()
 a=now.strftime('%Y-%m-%d %H:%M:%S')  
