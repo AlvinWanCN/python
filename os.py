@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-
+'''
 import sys,os
 oldSterr = None
 logfile = None
@@ -13,7 +13,9 @@ try:
 finally:
         if logfile:
            logfile.close()
+'''
 #       if oldStdout:
 #          sys.stdout = oldStdout
 
 #print 'Hello World in Screen'
+print(234)
