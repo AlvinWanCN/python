@@ -11,19 +11,8 @@ class Bird:
 b = Bird()
 print (b.hungry)
 """
-"""
-class Bird:
-    hungry = 50
-    def eat(self):
-        print ("ahh")
 
-print(Bird)
-print(Bird())
-print(Bird())
-print(Bird.hungry)
-print(Bird().eat())
-"""
-
+'''
 class Alvin():
     a = 'facebook'
     def b(self):
@@ -32,7 +21,23 @@ class Alvin():
         print 'ok,this is c'
 
 alv = Alvin()
+b=Alvin()
+d=alv.a
+print(Alvin)
+print(Alvin())
+print(Alvin())
+print (d)
+print(alv)
+print(alv)
+print(alv)
+print(b)
+'''
 
-dd=alv.a
+class Bird:
+    hungry = 10
+    def eat(self):
+        print ("ahh")
 
-alv.b()
+print(Bird)
+print(Bird())
+print(Bird())
