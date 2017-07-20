@@ -36,8 +36,19 @@ print(b)
 class Bird:
     hungry = 10
     def eat(self):
-        print ("ahh")
+        print (self)
 
 print(Bird)
 print(Bird())
 print(Bird())
+zz='zzzzzz'
+print(9999)
+Bird().eat()
+a=Bird()
+print(a)
+b=Bird()
+print(b)
+c=Bird()
+print(c)
+c.eat()
+del c
