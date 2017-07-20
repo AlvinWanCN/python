@@ -1,2 +1,4 @@
-# alvin's python scripts
-#edit test.yes I'm here. [](https://alv.pub)
+# Alvin's Python Scripts
+
+This repository is use for alvin record his Python scripts.
+
