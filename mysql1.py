@@ -3,22 +3,37 @@
 import MySQLdb as sql,sys
 
 connect = sql.connect(
-    host = '192.168.1.214',
-    user = 'root',
-    passwd = sys.argv[1],
-    db = 'blood_suger_v26'
+    host = sys.argv[1],
+    user = sys.argv[2],
+    passwd = sys.argv[3],
+    db = 'alv',
+    port = 1006
     )
-
-
 cursor = connect.cursor()
 
+sqls = 'select name from t1'
+#sqls = "insert into t1 set name = 'diana', math='69' "
 
-sqls = 'select username from user'
-
-b = cursor.execute(sqls)
-a = cursor.fetchone()
+a = cursor.execute(sqls)
 c = cursor.fetchall()
-print c
-#print "Database version : %s " %c
+b = cursor.fetchone()
+bb = cursor.fetchone()
 
+
+
+
+print a
+print b
+print b
+#print b+b+b
+if c[0] == ('alvin',):
+    print 'The first name is alvin'
+
+else:
+    print("That's not alvin")
+    print c[0]
+
+#print "Database version : %s " %c
+cursor.close()
+#cursor.commit()
 connect.close()
