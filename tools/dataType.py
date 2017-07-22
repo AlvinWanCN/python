@@ -1,9 +1,13 @@
 #!/usr/bin/python
 #-*-coding:utf-8-*-
-def i(v):
-    print('values {v}'.format(v=v))
-    print(type(v))
-    print('')
+class PrintValueAndType:
+    u = 'Alvin Wan'
+    def i(self,v):
+     print('数据内容: {v}'.format(v=v))
+     print('数据类型: {v}'.format(v=str(type(v)).split("'")[1]))
+     print('')
+
+i = PrintValueAndType().i
 
 a = ('alvin', 'tomath')  #这种数据是tuple类型,要使用括号
 i(a)
@@ -19,8 +23,10 @@ i(a)
 a = zip((1,2,3),['a','b','c'],'defg')
 i(a)
 
-#print type(dict(zip('abc',range(1,3))))
+
 #a = dict([1,2],('a',1),('b',3))
 #print a
 a={'a':'alvin','b':'natasah'}
 i(a)
+#print type(dict(zip('abc',range(1,3))))
+print(PrintValueAndType().u)
