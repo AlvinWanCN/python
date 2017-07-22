@@ -3,8 +3,22 @@
 import time
 import thread
 
-def loop():
-    print ('start loop0 at:',time.ctime())
+def loop0():
+    print('start loop0 at:',time.ctime())
     time.sleep(4)
-loop()
-print('hello''ok')
+    print('loop0 down at:',time.ctime())
+
+def loop1():
+    print('start loop1 at:',time.ctime())
+    time.sleep(2)
+    print('loop1 down at:',time.ctime())
+
+
+def main():
+    print('all is start at:',time.ctime())
+    loop0()
+    loop1()
+    print('all is down at:',time.ctime())
+
+if __name__ == "__main__":
+    main()
