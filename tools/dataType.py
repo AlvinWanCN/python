@@ -23,7 +23,8 @@ i(a)
 a = zip((1,2,3),['a','b','c'],'defg')
 i(a)
 
-
+a = range(6)
+i(a)
 #a = dict([1,2],('a',1),('b',3))
 #print a
 a={'a':'alvin','b':'natasah'}
