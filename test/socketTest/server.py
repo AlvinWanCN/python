@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 import socket
-
+#TCP协议socket server
 sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
     #socket type
         #socket.AF_INET     ipv4协议的socket套接字
