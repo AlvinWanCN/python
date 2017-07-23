@@ -16,8 +16,8 @@ def loop1():
 
 def main():
     print('all is start at:',time.ctime())
-    loop0()
-    loop1()
+    thread.start_new_thread(loop0,())
+    thread.start_new_thread(loop1,())
     print('all is down at:',time.ctime())
 
 if __name__ == "__main__":
