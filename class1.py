@@ -61,9 +61,11 @@ class Bird:
 
 b = Bird('alvin')
 '''
-
+'''
 class Bird:
     def __del__(self):
         print('go die')
 
 b = Bird()
+del b
+'''
