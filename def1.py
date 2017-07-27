@@ -33,3 +33,11 @@ print()
 print(test(1,2,3,4,5,name = 'alvin',age = 22))
 """
 
+#return 是返回值，a=re() 等于将re()的执行返回值赋值给a
+def re():
+    print('hello')
+    return 'no'
+a=re()
+print
+print(a)
+
