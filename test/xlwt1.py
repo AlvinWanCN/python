@@ -4,6 +4,7 @@ import xlrd
 import xlwt
 from datetime import date,datetime
 
+#参考url：http://www.jb51.net/article/60510.htm
 def read_excel():
     #打开文件
     workbook = xlrd.open_workbook(r'D:\test\demo.xlsx')
