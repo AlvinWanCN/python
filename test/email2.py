@@ -3,13 +3,13 @@
 发送html文本邮件
 小五义：http://www.cnblogs.com/xiaowuyi
 '''
-import smtplib
+import smtplib,sys
 from email.mime.text import MIMEText
 
 mailto_list = ["alvin.wan@shenmintech.com"]
 mail_host = "smtp.exmail.qq.com"  # 设置服务器
 mail_user = "notify@51alvin.com"  # 用户名
-mail_pass = "password"  # 口令
+mail_pass = sys.argv[1]  # 口令
 mail_postfix = ""  # 发件箱的后缀
 
 
