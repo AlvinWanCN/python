@@ -32,7 +32,7 @@ def send_mail(to_list, sub, content):  # to_list：收件人；sub：主题；co
 
 
 if __name__ == '__main__':
-    if send_mail(mailto_list, "hello123", "<a href='http://www.cnblogs.com/xiaowuyi'>小五义</a>"):
+    if send_mail(mailto_list, "hello123", "<a href='http://alv.pub'>nataha</a>"):
         print "发送成功"
     else:
         print "发送失败"
