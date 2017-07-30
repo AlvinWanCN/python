@@ -5,11 +5,12 @@
 '''
 import smtplib
 from email.mime.text import MIMEText
+import sys
 
 mailto_list = ['alvin.wan@shenmintech.com']
 mail_host = "smtp.exmail.qq.com"  # 设置服务器
 mail_user = "notify@51alvin.com"  # 用户名
-mail_pass = "this is passwordd"  # 口令
+mail_pass = sys.argv[1]  # 口令
 mail_postfix = "51alvin.com"  # 发件箱的后缀
 
 
@@ -24,6 +25,7 @@ def send_mail(to_list, sub, content):
         server.connect(mail_host)
         server.login(mail_user, mail_pass)
         server.sendmail(me, to_list, msg.as_string())
+        print(msg)
         server.close()
         return True
     except Exception, e:
