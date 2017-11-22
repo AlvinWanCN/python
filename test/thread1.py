@@ -2,7 +2,7 @@
 #coding:utf-8
 import time
 import thread
-
+'''
 def loop0():
     print ("start loop0 at:",time.ctime())
     time.sleep(4)
@@ -23,3 +23,18 @@ def main():
 if  __name__ == "__main__":
     main()
 
+'''
+def loop(nloop,nsec):
+    print("start loop%s at:"%nloop, time.ctime())
+    time.sleep(nsec)
+    print("loop%s down at:"%nloop, time.ctime())
+
+def main():
+    print("all is start at:", time.ctime())
+    sleep_list = [4,2]
+    for i in range(2):
+        thread.start_new_thread(loop,(i,sleep_list[i]))
+    time.sleep(4)
+    print("all is down at:", time.ctime())
+if __name__ == '__main__':
+    main()
