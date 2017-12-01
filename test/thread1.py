@@ -31,10 +31,10 @@ def loop(nloop,nsec):
 
 def main():
     print("all is start at:", time.ctime())
-    sleep_list = [4,2]
-    for i in range(2):
+    sleep_list = [4,2,5,7,1]
+    for i in range(len(sleep_list)):
         thread.start_new_thread(loop,(i,sleep_list[i]))
-    time.sleep(4)
+    time.sleep(max(sleep_list)+1)
     print("all is down at:", time.ctime())
 if __name__ == '__main__':
     main()
