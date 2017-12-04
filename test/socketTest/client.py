@@ -3,7 +3,7 @@
 import socket,time
 
 #TCP协议socket client
-
+'''
 sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 
 #连接服务器
@@ -18,4 +18,20 @@ print(sock.recv(512))
 sock.send('没呢。')
 print(time.ctime())
 time.sleep(2)
+sock.close()
+
+'''
+
+sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+sock.connect(('127.0.0.1',8000))
+while True:
+    recvData = sock.recv(512)
+    print(recvData)
+    if recvData == "break":
+        break
+    sendData = raw_input(">>>")
+    sock.send(sendData)
+    sock .send(sendData)
+    if sendData == "break":
+        break
 sock.close()

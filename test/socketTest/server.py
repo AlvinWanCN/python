@@ -27,15 +27,24 @@ content,address = sock.accept()
 print("%s:%s is connect"%address)
 print(time.ctime())
 time.sleep(2)
-content.send("吃了吗？")
-print(time.ctime())
-time.sleep(2)
-print(content.recv(512))
+while True:
+    sendData = raw_input(">>>")
+    content.send(sendData)
+    if sendData == "break":
+        break
+    recvData = content.recv(512)
+    print(recvData)
+    if recvData == "break":
+        break
+#    content.send("吃了吗？")
+#print(time.ctime())
+#time.sleep(2)
+#print(content.recv(512))
 #recv 接收用户发来的信息，512 指每次最多接收512字节，多余部分下次接收
 #618
     #content.recv(512)
     #content.recv(512)
 #关闭连接
-print(time.ctime())
-time.sleep(2)
+#print(time.ctime())
+#time.sleep(2)
 sock.close()
