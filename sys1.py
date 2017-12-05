@@ -8,3 +8,10 @@ b=sys.argv[2]
 print "the first word is {}".format(a)
 
 print 'the second word is {}'.format(b)
+
+
+if 1 == 1:
+    print('ok')
+
+else:
+    print('asaa')
