@@ -1,14 +1,12 @@
 #coding:utf-8
-import cgi
-import time
+
+import time,cgi
 
 html = """
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <title>new page</title>
-</head>
+<html>
+     <head>
+        <title>new page</title>
+    </head>
     <body>
         <p>
             This is our python index
@@ -18,9 +16,9 @@ html = """
         </p>
     </body>
 </html>
-
 """
 now = time.strftime("%Y-%m-%d %H:%M:%S",time.localtime())
 print("Content-type:text/html")
 print()
 print(html%now)
+print('aaa')
