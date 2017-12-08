@@ -1,6 +1,7 @@
 #!/usr/bin/python
 #coding:utf-8
 import cgi,time
+from models import User
 
 html="""
 <html>
@@ -37,6 +38,11 @@ html="""
 data = cgi.FieldStorage()
 name = data.getvalue("user")
 password = data.getvalue("pawd")
+
+user = User()
+user.username = name
+user.password = password
+user.save()
 print("Content-type:text/html")
 print()
 print(html%(data,name,password))
