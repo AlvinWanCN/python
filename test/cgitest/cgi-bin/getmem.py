@@ -2,7 +2,7 @@
 #coding:utf-8
 import commands,cgi,time
 
-output = commands.getoutput('ps -eo rss,pmem,pcpu,args | sort -k 1 -r -n |head -20|cat -n|sed "s/$/<\/br>"/')
+output = commands.getoutput('ps -eo rss,pmem,pcpu,args | sort -k 1 -r -n |head -20|cat -n|sed "s/$/<\/br>"/').replace('sort: Broken pipe ','')
 
 html = """
 
