@@ -21,7 +21,12 @@ print(type(('Alvin','Wan')))
 print(type({'a':'alvin','b':'wan','c':'cn'}))
 a={'a':'alvin','b':'wan','c':'cn'}
 print(a['b'])
-print(dict(zip('abcde',range(1,6))))
-print(zip('abcde',range(1,6)))
+if 'a' in a:
+    print('hello')
+else:
+    print('hehe')
+print(dict(zip('abcde',range(1,6)) ))
+print(zip('abcde',range(1,6),'aaaaa'))
 print(range(1,6))
 print(a.get('a'))
+
