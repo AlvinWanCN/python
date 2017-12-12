@@ -11,7 +11,6 @@ MoreThan='Sorry the number your typed %s more than luck number,Please try again.
 Error='Sorry, Something is wrong, Please try again, or contact admin'
 chance='This is your %s chance.'
 successTimes="You win at %s chance!"
-#print("Your number is %s"%Number)
 times=1
 while True:
     print(chance%times)
