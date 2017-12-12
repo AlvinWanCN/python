@@ -15,7 +15,7 @@ successTimes="You win at %s chance!"
 times=1
 while True:
     print(chance%times)
-    Number = int(raw_input('Please enter a number, figure range in 0-1000:'))
+    Number = int(raw_input('Please enter a number, figure range is 0-1000:'))
     if Number == LuckNumber:
         print(Congratulation%LuckNumber)
         print(successTimes%times)
