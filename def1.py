@@ -38,6 +38,5 @@ def re():
     print('hello')
     return 'is no'
 a=re()
-print
 print(a)
 
