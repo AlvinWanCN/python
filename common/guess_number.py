@@ -12,7 +12,7 @@ Error='Sorry, Something is wrong, Please try again, or contact admin'
 chance='This is your %s chance.'
 successTimes="You win at %s chance!"
 times=1
-while True:
+while times < 1000:
     print(chance%times)
     Number = int(raw_input('Please enter a number, figure range is 0-1000:'))
     if Number == LuckNumber:

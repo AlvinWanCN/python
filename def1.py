@@ -21,7 +21,6 @@ aa(21,'alvin')
 '''
 
 
-"""
 #*args代表任意个参数，**kwargs代表字典
 def test(*args,**kwargs):
     print args,type(args)
@@ -39,4 +38,5 @@ def re():
     return 'is no'
 a=re()
 print(a)
+"""
 

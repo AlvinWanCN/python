@@ -1,4 +1,5 @@
 #!/usr/bin/python
 #coding:utf-8
-import random
-print(random.randrange(90,100))
+import random,os,commands
+
+print(commands.getoutput('ls'))
