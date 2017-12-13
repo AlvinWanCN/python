@@ -3,10 +3,17 @@
 
 import peewee
 
-db = peewee.SqliteDatabase("register.db")
+#db = peewee.SqliteDatabase("register.db")
 
+db = peewee.MySQLDatabase(
+    database= "register",
+    host = "u1",
+    user = "root",
+    passwd = "root"
+
+)
 class User(peewee.Model):
-    username = peewee.CharField(Max_length = 32)
+    username = peewee.CharField(max_length = 32)
     password = peewee.CharField(max_length = 32)
     class Meta:
         database = db
@@ -14,5 +21,5 @@ class User(peewee.Model):
 if __name__ == "__main__":
     try:
         User.create_table()
-        except:
+    except:
             pass

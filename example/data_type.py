@@ -1,5 +1,6 @@
 #!/usr/bin/python
 #coding:utf-8
+import cgi,time
 
 
 #整数
@@ -29,4 +30,3 @@ print(dict(zip('abcde',range(1,6)) ))
 print(zip('abcde',range(1,6),'aaaaa'))
 print(range(1,6))
 print(a.get('a'))
-
