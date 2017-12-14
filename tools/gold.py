@@ -17,5 +17,5 @@ response = urllib2.urlopen(request)
 content = response.read()
 if (content):
     #print(content)
-    price = "最新黄金价格是："+content.split('"price":"')[2].split('"')[0]
+    price = "最新黄金价格是："+content.split('"price":"')[1].split('"')[0]
     print(price)
