@@ -1,4 +1,5 @@
 #!/usr/bin/python
+#coding:utf-8
 import urllib, urllib2, sys
 
 
@@ -15,4 +16,6 @@ request.add_header('Authorization', 'APPCODE ' + appcode)
 response = urllib2.urlopen(request)
 content = response.read()
 if (content):
-    print(content)
+    #print(content)
+    vv = "最新黄金价格是："+content.split('"price":"')[2].split('"')[0]
+    print(vv)
