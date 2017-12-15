@@ -1,9 +1,10 @@
 #!/usr/bin/python
 #coding:utf-8
 from gold import GetGoldPrice
-import peewee,time
+import peewee,time,os
 from gold_db import sophia
 gprice = GetGoldPrice().gold_price
+httpGoldPrice = os.popen("curl http://gold.hexun.com/hjxh/ 2>/dev/null|grep -A1 '>Au99.99'|tail -1").read().split('<td>')[1].split('<')[0]
 
 gpdb  = sophia()
 waittime = 1200
@@ -59,6 +60,7 @@ def main(i,Num):
 def repotGoldStatus(lastGoldPrice,newGoldPrice):
     print('Last gold is:'.ljust(16) + str(lastGoldPrice))
     print('New gold is:'.ljust(16) + str(newGoldPrice))
+    print('Http gold is:'.ljust(16) + str(httpGoldPrice))
 def JudgeGold():
     main(1,3)
     lastGoldPrice = gv
