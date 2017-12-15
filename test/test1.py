@@ -13,5 +13,18 @@ if a or b:
 else:
     print('face')
 '''
-a='alvin wan'
-print(a.split('v',)[1])
+#a='alvin wan'
+#print(a.split('v',)[1])
+'''
+class sophia():
+    def alvin(self):
+        a='yes'
+        global a
+'''
+
+
+def alvin():
+    global a
+    a = 'yes'
+
+alvin()
