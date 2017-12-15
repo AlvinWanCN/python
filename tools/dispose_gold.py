@@ -59,11 +59,11 @@ def main(i,Num):
 def repotGoldStatus(lastGoldPrice,newGoldPrice):
     print('Last gold is:'.ljust(16) + str(lastGoldPrice))
     print('New gold is:'.ljust(16) + str(newGoldPrice))
-def JudgeGold(Num):
-    main(Num,3)
+def JudgeGold():
+    main(1,3)
     lastGoldPrice = gv
-    main(Num,0)
-    main(Num,3)
+    main(1,0)
+    main(1,3)
     newGoldPrice = gv
     if lastGoldPrice == newGoldPrice:
         print('Gold price has no change.')
@@ -76,4 +76,4 @@ def JudgeGold(Num):
         repotGoldStatus(lastGoldPrice, newGoldPrice)
 
 if __name__ == '__main__':
-    JudgeGold(2)
+    JudgeGold()
