@@ -3,8 +3,8 @@
 
 import peewee
 
-#db = peewee.SqliteDatabase("register.db")
-
+db = peewee.SqliteDatabase("register.db")
+'''
 db = peewee.MySQLDatabase(
     database= "register",
     host = "u1",
@@ -12,6 +12,7 @@ db = peewee.MySQLDatabase(
     passwd = "root"
 
 )
+'''
 class User(peewee.Model):
     username = peewee.CharField(max_length = 32)
     password = peewee.CharField(max_length = 32)
