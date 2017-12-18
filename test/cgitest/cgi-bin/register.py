@@ -75,11 +75,13 @@ else:
 
 respense = json.dumps(statue)
 #print("Content-type:text/html")
-print("Content-type:application/json  ")
+print("Content-Type: application/json")
 print()
-
+print(respense)
+'''
 if name and password:
 #    print(html_user%(data,name,password))
     print(respense)
 else:
     print(html_blank)
+'''
