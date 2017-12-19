@@ -111,3 +111,68 @@ test_str = """
 #print(re.findall(r'ok(.*)','aaaok32\n3sdsoks')) #不忽略行
 #print(re.findall(r'ok(.*)','aaaok32\n3sdsoks',re.S)) #加re.S 忽略行
 
+
+#正则的匹配的方法
+    #re.search 从左往右开始匹配，匹配第一个遇到的内容，内容不到返回None，
+    #None 没有属性group
+
+string = '7hello32 5 world'
+#p = re.search(r"\w",string)
+#if p:
+#    print(p.group())
+#    #re.match
+#p = re.match(r'\d',string) #从开头开始匹配内容，匹配不到返回None
+#if p:
+#    print(p.group())
+    #group与groups的区别，groups会把组里面的内容分开。
+#p = re.search(r'(\d)(\w)',string)
+#if p:
+#    print(p.group())
+#    print(p.groups())
+    #re.sub 类似字符串的replace，将匹配到的内容替换为指定内容。
+#print(re.sub(r'\d','0',string))
+#print(re.sub(r'\s+','',test_str))  #将所有空格替换为空，也就是删除空格了。
+
+    #re.split 类似字符串split 将字符串按照匹配到的内容进行切分
+#print(re.split(r"\s+",test_str))
+
+
+#lxml beatufulsoup4
+    #必须要熟悉html结构。
+
+test_str = """
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <title>our CGI</title>
+</head>
+<body>
+    <div class='ok'>
+        <div class = "nice">
+            <p>
+                hello world
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+"""
+from lxml import etree
+#1、 对字符串进行结构化。
+html = etree.HTML(test_str)
+
+#2、 进行xpath匹配
+    # / 下一级
+    # // 所有
+    # [] 选择，筛选条件
+    #索引法
+content_list = html.xpath("/html/body/div[1]/dev/[1]/p")
+content_list = html.xpath("//p")
+    #属性法
+        #@ 代表属性。
+content_list = html.xpath("//div[@class='nice']/p")
+
+for i in content_list:
+    print(i.text) #查看内容
+    print(i.tag) #查看标签
+    print(i.attrib) #查看熟悉
