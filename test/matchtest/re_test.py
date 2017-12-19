@@ -148,7 +148,7 @@ test_str = """
 </head>
 <body>
     <div class='ok'>
-        <div class = "nice">
+        <div class = 'nice'>
             <p>
                 hello world
             </p>
@@ -157,6 +157,7 @@ test_str = """
 </body>
 </html>
 """
+'''
 from lxml import etree
 #1、 对字符串进行结构化。
 html = etree.HTML(test_str)
@@ -166,8 +167,8 @@ html = etree.HTML(test_str)
     # // 所有
     # [] 选择，筛选条件
     #索引法
-content_list = html.xpath("/html/body/div[1]/dev/[1]/p")
-content_list = html.xpath("//p")
+#content_list = html.xpath("/html/body/div[1]/dev/[1]/p")
+#content_list = html.xpath("//p")
     #属性法
         #@ 代表属性。
 content_list = html.xpath("//div[@class='nice']/p")
@@ -175,4 +176,36 @@ content_list = html.xpath("//div[@class='nice']/p")
 for i in content_list:
     print(i.text) #查看内容
     print(i.tag) #查看标签
-    print(i.attrib) #查看熟悉
+    print(i.attrib) #查看属性
+'''
+
+from  bs4 import BeautifulSoup as BS
+
+test_str = """
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <title>our CGI</title>
+</head>
+<body>
+    <div class='ok'>
+        <div class = 'nice'>
+            <p>
+                hello world
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+"""
+#1、 对字符串进行结构化
+html = BS(test_str,'lxml')
+#print(html.title) #获取标题
+#print(html.title.name) #获取标题名称
+#print(html.title.string) #获取标题内容
+#print(html.p) #获取p标签
+#print(html.p.string) #获取p标签内容
+#print(html.div) #获取div标签
+#print(html.find_all("div")) #获取所有dic标签
+#print(html.find_all("div")[1]) #获取指定div标签
+print(html.find(class_="ok")) #获取class值为ok的div标签，class在python里是个关键字，所以这里我要在class后面加一个下划线，作为特殊处理。
