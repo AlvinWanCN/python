@@ -3,7 +3,7 @@
 
 import re
 
-temp = "hello woirld I am alvin wan! I have 18.2$ I am 18 years old this is python_re, by alaaavin"
+temp = "hello world I am alvin wan! I have 18.2$ I am 18 years old this is python_re, by alaaavin"
 #匹配的规则
     #匹配内容的规则
         #re.findall() 匹配指定字符串当中所有满足匹配条件的字符串，返回列表。
@@ -59,8 +59,55 @@ temp = "hello woirld I am alvin wan! I have 18.2$ I am 18 years old this is pyth
     #(?P<name>) (?P=name)
         #(?<name>) 给组起一个名字。
         #(?P=name)调用改命名组匹配到的内容。
-temp = 'a1a b2b c3d 4e5 6t6'
+#temp = 'a1a b2b c3d 4e5 6t6'
 
-print(re.findall(r'(?P<hello>\w)\d(?P=hello)',temp)) #这里定义一个组，组的名字是hello，里面的内容是\w, 然后加了条件\d,也就是它后面是跟一个数字，然后后面调用hello，意思就是后面还有一个自己。a1a和b2b符合这条件，所以最终打印a和b
+#print(re.findall(r'(?P<hello>\w)\d(?P=hello)',temp)) #这里定义一个组，组的名字是hello，里面的内容是\w, 然后加了条件\d,也就是它后面是跟一个数字，然后后面调用hello，意思就是后面还有一个自己。a1a和b2b符合这条件，所以最终打印a和b
 
-print(re.findall(r'\d\d([a-z].*)v(\d)','32abcv66'))
+#print(re.findall(r'\d\d([a-z].*)v(\d)','32abcv66'))
+
+    #* 匹配前面相邻的规则0到多个
+#print(re.findall(r'\d*',temp)) #最少匹配0个数字，最多匹配n次。
+
+    #+ 匹配前面相邻的规则1到多个。
+#print(re.findall(r'\d+',temp))
+
+    #+ 匹配前面相邻的规则o个到1个。
+#print(re.findall(r'\d?',temp))
+
+    #{} 大括号，前面相邻的规则指定个数。
+#print(re.findall(r'\w{3}',temp)) #匹配前面相邻规则三个
+#print(re.findall(r'\w{6}',temp)) #匹配前面相邻规则六个
+#print(re.findall(r'\w{1,6}',temp)) #匹配前面相邻规则一到六个。
+
+    #贪婪匹配和反贪婪匹配
+        #re.S 忽略换行匹配
+        #re.I 忽略大小写匹配
+        #re.M 忽略开头结尾进行匹配
+test_str = """
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>our CGI</title>
+</head>
+<body>
+    <div class='ok'>
+        <div class = "nice">
+            <p>
+                hello world
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+"""
+    #不加re.S,则是逐行匹配，所以会匹配不到。
+#print(re.findall(r'<div class = "nice">(.*)</div>',test_str))
+    #加了re.S，则是忽略换行匹配，所以能匹配到内容了，所有的内容都相当于在同一行。
+    #这里(.*)组里面是.*,属于贪婪匹配，也就是尽可能多的匹配到内容。
+#print(re.findall(r'<div class = "nice">(.*)</div>',test_str,re.S))
+    #这里(.*?)组里面是.*?，属于反贪婪匹配，也就是尽可能少的匹配到内容。
+#print(re.findall(r'<div class = "nice">(.*?)</div>',test_str,re.S))
+
+#print(re.findall(r'ok(.*)','aaaok32\n3sdsoks')) #不忽略行
+#print(re.findall(r'ok(.*)','aaaok32\n3sdsoks',re.S)) #加re.S 忽略行
+
