@@ -76,7 +76,7 @@ else:
 respense = json.dumps(statue)
 #print("Content-type:text/html")
 print("Content-Type: application/json")
-print()
+print('\n') #在python2 我们需要手动输入一个\n 来确认头信息传输完成。
 print(respense)
 '''
 if name and password:

@@ -208,4 +208,5 @@ html = BS(test_str,'lxml')
 #print(html.div) #获取div标签
 #print(html.find_all("div")) #获取所有dic标签
 #print(html.find_all("div")[1]) #获取指定div标签
-print(html.find(class_="ok")) #获取class值为ok的div标签，class在python里是个关键字，所以这里我要在class后面加一个下划线，作为特殊处理。
+#print(html.find(class_="ok")) #获取class值为ok的div标签，class在python里是个关键字，所以这里我要在class后面加一个下划线，作为特殊处理。
+print(html.find("div",attrs = {"class":"ok"}))

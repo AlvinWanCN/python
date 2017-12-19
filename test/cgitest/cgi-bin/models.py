@@ -1,9 +1,11 @@
 #!/usr/bin/python
-#cocding:utf-8
-
+#coding:utf-8
+import os
 import peewee
-
-db = peewee.SqliteDatabase("register.db")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+#这个路径可以保证我们web服务器调用数据库的路径和我们脚本执行的时候创建数据库的路径一致。
+db = peewee.SqliteDatabase(os.path.join(BASE_DIR,"register.db"))
+#db = peewee.SqliteDatabase("register.db")
 '''
 db = peewee.MySQLDatabase(
     database= "register",
