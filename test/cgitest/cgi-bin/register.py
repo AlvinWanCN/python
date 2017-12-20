@@ -7,7 +7,7 @@ import json
 html_user="""
 <html>
     <head>
-        <mata charset="UTF-8">
+        <meta charset="UTF-8">
         <title>
             News
         </title>
