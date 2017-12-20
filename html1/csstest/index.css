@@ -1,3 +1,30 @@
 em{
     color:green;
 }
+b{
+    color:green;
+}
+h1{
+    color:red;
+    font-size:14px;
+    /*css注释方式 css优先级高于html*/
+}
+
+h1,h2,h3,h4,p,b{
+    color: green;
+}
+
+body{
+    /*color:red;*/
+}
+
+ul li{
+    color:purple ;
+}
+
+#q{
+    color:red;
+}
+#w{
+    color:blue;
+}
