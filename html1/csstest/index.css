@@ -64,4 +64,7 @@ div{
     width:200px;
     height:200px;
     border:30px inset #00ff00;
+    border-color-left:blue;
+    border-color-right:yellow;
+    border-color-bottom:green;
 }
