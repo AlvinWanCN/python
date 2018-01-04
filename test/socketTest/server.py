@@ -25,11 +25,26 @@ content,address = sock.accept()
     #content 用来接收请求用户的消息和发送对该请求用户的消息的功能
     #address 请求用户的身份，ip port （ip，port)
 print("%s:%s is connect"%address)
-content.send("吃了吗？")
-print(content.recv(512))
+print(time.ctime())
+time.sleep(2)
+while True:
+    sendData = raw_input(">>>")
+    content.send(sendData)
+    if sendData == "break":
+        break
+    recvData = content.recv(512)
+    print(recvData)
+    if recvData == "break":
+        break
+#    content.send("吃了吗？")
+#print(time.ctime())
+#time.sleep(2)
+#print(content.recv(512))
 #recv 接收用户发来的信息，512 指每次最多接收512字节，多余部分下次接收
 #618
     #content.recv(512)
     #content.recv(512)
 #关闭连接
+#print(time.ctime())
+#time.sleep(2)
 sock.close()

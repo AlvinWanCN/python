@@ -21,7 +21,6 @@ aa(21,'alvin')
 '''
 
 
-"""
 #*args代表任意个参数，**kwargs代表字典
 def test(*args,**kwargs):
     print args,type(args)
@@ -36,8 +35,8 @@ print(test(1,2,3,4,5,name = 'alvin',age = 22))
 #return 是返回值，a=re() 等于将re()的执行返回值赋值给a
 def re():
     print('hello')
-    return 'no'
+    return 'is no'
 a=re()
-print
 print(a)
+"""
 
