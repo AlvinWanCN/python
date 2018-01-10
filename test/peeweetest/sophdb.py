@@ -12,9 +12,12 @@ connect  = peewee.MySQLDatabase(
     passwd = 'sophiroth'
     )
 
-
-class test_table(peewee.Model):
+class sophia(peewee.Model):
     name = peewee.CharField(max_length=32) #name char (32)
     age = peewee.IntegerField() #int
+    birthday = peewee.DateTimeField()  #日期
+
     class Meta:
         database = connect
+if __name__ == '__main__':
+    sophia.create_table()

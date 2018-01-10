@@ -7,9 +7,9 @@ import peewee
 #建立连接
 connect  = peewee.MySQLDatabase(
     database = 'sophiroth',
-    host = 'localhost',
+    host = 'c7u4.alv.pub',
     user = 'alvin',
-    passwd = 'alvin'
+    passwd = 'sophiroth'
     )
 #创建表
     #类名必须大写
