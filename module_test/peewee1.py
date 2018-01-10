@@ -15,7 +15,7 @@ connect  = peewee.MySQLDatabase(
     #类名必须大写
     #peewee 创建数据库模型的时候，默认会添加主键id
     #peewee 创建数据库字段默认不可为空
-class sophia(peewee.Model):
+class natasha(peewee.Model):
     name = peewee.CharField(max_length=32) #name char (32)
     age = peewee.IntegerField() #int
     birthday = peewee.DateTimeField()  #日期
@@ -23,4 +23,4 @@ class sophia(peewee.Model):
     class Meta:
         database = connect
 if __name__ == '__main__':
-    sophia.create_table()
+    natasha.create_table()
