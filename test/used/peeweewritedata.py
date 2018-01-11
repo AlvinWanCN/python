@@ -16,14 +16,14 @@ def msg_(recordfile):#定义消息输出格式
 def tongban(period,recordfile,tbf):#定义导出数据的执行函数
     tdata=[]#定义一个tdata默认值
     if period in (1,2):#判断期数，根据期数定义查询条件
-        t_list = t.select().where(t.projectLevel == period )#查询数据，使用指定削减，匹配期数
+        t_list = t.select().where(t.projectLevel == period )#查询数据，使用指定条件，匹配期数
     elif period == 0:
         t_list = t.select().where(t.projectLevel >> None ) #查询期数为空的数据
     for T in t_list:#将数据写入到文件
         tdata.append(str(T.id)) #将数据放如一个list
-    msg_(recordfile)    #打印保护当前时间的消息
+    msg_(recordfile)    #打印包含当前时间的消息
     finalData=('\n'.join(tdata)) #将数据合并
-    tbf.write(finalData)    #将数据些到制定文件里
+    tbf.write(finalData)    #将数据写到指定文件里
     tbf.close() #关闭文件
 def _main():#定义主函数
     print('start time is %s'%time.strftime('%Y-%m-%d %H:%M:%S'))
