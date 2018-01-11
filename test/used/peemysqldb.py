@@ -13,8 +13,8 @@ connect  = peewee.MySQLDatabase(
     )
 
 #定义表
-class t_nuoh_patient_normal_user(peewee.Model):
-    id = peewee.IntegerField() #int
-    projectLevel = peewee.IntegerField()
+class t_nuoh_patient_normal_user(peewee.Model): #表名
+    id = peewee.IntegerField() #int   #指定我们需要用到的字段和数据类型
+    projectLevel = peewee.IntegerField() #只需要这两个字段，我们就只定义这两个字段。
     class Meta:
         database = connect
