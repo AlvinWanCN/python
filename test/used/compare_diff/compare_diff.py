@@ -35,8 +35,11 @@ def run_compare():
     for i in merge_file:
 
         if merge_file.count(i) == 1:
-            unique_word.append(re.sub(r'\r','',i))
-
+            unique_word.append(re.sub(r'\D','',i))
+     #       print i
+    while '' in unique_word:
+       unique_word.remove('')
+    #print(len(unique_word))
     u_list = user.select().where(user.mobile << unique_word) #query user table
     #Get hospitalID
     hospitalId=[]
