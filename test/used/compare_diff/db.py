@@ -12,14 +12,7 @@ connect  = peewee.MySQLDatabase(
     user = sys.argv[3],#用户名
     passwd = sys.argv[4] #密码
     )
-'''
-connect  = peewee.MySQLDatabase(
-    database = 'blood_suger_v26',#设置数据库名
-    host = 'ops2.shenmintech.com',#设置服务器的域名或ip
-    user = 'alvin',#用户名
-    passwd = 'Sophiroth+2017' #密码
-    )
-'''
+
 connect2  = peewee.MySQLDatabase(
     database = 'sophiroth', #数据库名
     host = 'c7u4.alv.pub', #域名或ip
