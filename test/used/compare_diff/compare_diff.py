@@ -6,7 +6,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 from db import hospital
 from db import user
-baseDir='E:\\'
+baseDir='Z:\\xiaoxiao\\'
 file1=baseDir+'1.txt'
 file2=baseDir+'2.txt'
 file3=baseDir+'3.txt'
@@ -35,7 +35,7 @@ def run_compare():
     for i in merge_file:
 
         if merge_file.count(i) == 1:
-            unique_word.append(i)
+            unique_word.append(re.sub(r'\r','',i))
 
     u_list = user.select().where(user.mobile << unique_word) #query user table
     #Get hospitalID
@@ -47,14 +47,17 @@ def run_compare():
     hospitalName=[]
     for T in h_list:
         hospitalName.append(T.name)
-        print T.name
     #print(hospitalName)
     #print(unique_word)
     #print ('\n'.join(unique_word))
-    print (hospitalName)
+    print ('\n'.join(hospitalName))
 
     f3.write('\n'.join(unique_word))
     f4.write('\n'.join(hospitalName))
+    f1.close()
+    f2.close()
+    f3.close()
+    f4.close()
 
 
 
