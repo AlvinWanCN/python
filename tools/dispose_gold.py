@@ -35,7 +35,7 @@ def CheckGold():
         gv = T.value
         gvtime = T.date
         #print(gv)
- #   T = sophia.get()
+ #   T = sophia.get()#
  #   print(T.id,T.value,T.date,T.name)
 
 
