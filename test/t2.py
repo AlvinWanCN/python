@@ -12,7 +12,14 @@ newlog.close()
 
 
 for i in os.listdir(logdir) :
-    if re.findall(r'late.*',i):
+    if re.findall(r'late*.txt',i):
         old_database=i
 
-print (old_database)
+#print (old_database)
+#cc='\n'.join(os.listdir(logdir))
+#print cc
+#print (re.findall(r'late.*',('\n'.join(os.listdir(logdir)))))
+back= (re.findall(r'late.*','\n'.join(os.listdir(logdir))))
+print str(back)
+#if os.path.exists(newlogfile):  print 'haha'
+
