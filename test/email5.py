@@ -2,9 +2,9 @@
 #coding:utf-8
 import smtplib
 import smtplib
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from email.mime.application import MIMEApplication
+from sophiroth_email.mime.multipart import MIMEMultipart
+from sophiroth_email.mime.text import MIMEText
+from sophiroth_email.mime.application import MIMEApplication
 import sys
 
 #发送带附件的邮件。

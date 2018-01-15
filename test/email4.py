@@ -1,9 +1,9 @@
 #!/usr/bin/python
 #coding: utf-8
 import smtplib
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from email.mime.image import MIMEImage
+from sophiroth_email.mime.multipart import MIMEMultipart
+from sophiroth_email.mime.text import MIMEText
+from sophiroth_email.mime.image import MIMEImage
 import sys
 
 sender = 'notify@51alvin.com'

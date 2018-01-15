@@ -4,8 +4,8 @@
 小五义：http://www.cnblogs.com/xiaowuyi
 '''
 
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
+from sophiroth_email.mime.text import MIMEText
+from sophiroth_email.mime.multipart import MIMEMultipart
 import smtplib,sys
 
 #创建一个带附件的实例

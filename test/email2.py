@@ -4,7 +4,7 @@
 小五义：http://www.cnblogs.com/xiaowuyi
 '''
 import smtplib,sys
-from email.mime.text import MIMEText
+from sophiroth_email.mime.text import MIMEText
 
 mailto_list = ["alvin.wan@shenmintech.com"]
 mail_host = "smtp.exmail.qq.com"  # 设置服务器

@@ -1,10 +1,7 @@
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
-'''
-发送txt文本邮件
-小五义：http://www.cnblogs.com/xiaowuyi
-'''
 import smtplib
-from sophiroth_email.mime.text import MIMEText
+from email.mime.text import MIMEText
 import sys
 
 mailto_list = ['alvin.wan@shenmintech.com']

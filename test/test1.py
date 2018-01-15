@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #coding:utf-8
-import random,os,commands
+import random,os,commands,time
 
 #print(commands.getoutput('ls'))
 '''
@@ -23,8 +23,7 @@ class sophia():
 '''
 
 
-def alvin():
-    global a
-    a = 'yes'
+def fucTime():
+    nowTime=time.ctime()
+    print(nowTime)
 
-alvin()
