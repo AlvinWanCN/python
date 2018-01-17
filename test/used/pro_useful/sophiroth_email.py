@@ -23,7 +23,7 @@ def send_mail(to_list, sub, content):
         server.connect(mail_host)
         server.login(mail_user, mail_pass)
         server.sendmail(me, to_list, msg.as_string())
-        print(msg)
+        #print(msg)
         server.close()
         return True
     except Exception, e:
