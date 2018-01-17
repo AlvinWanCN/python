@@ -14,7 +14,8 @@ mail_postfix = "sophiroth.com"  # 发件箱的后缀
 
 def send_mail(to_list, sub, content):
     me = "Notify" + "<" + mail_user + "@" + mail_postfix + ">"
-    msg = MIMEText(content, _subtype='plain', _charset='gb2312')
+    #msg = MIMEText(content, _subtype='plain', _charset='gb2312')
+    msg = MIMEText(content, _subtype='plain', _charset='utf-8')
     msg['Subject'] = sub
     msg['From'] = me
     msg['To'] = ";".join(to_list)
@@ -23,7 +24,7 @@ def send_mail(to_list, sub, content):
         server.connect(mail_host)
         server.login(mail_user, mail_pass)
         server.sendmail(me, to_list, msg.as_string())
-        #print(msg)
+        print(msg)
         server.close()
         return True
     except Exception, e:
