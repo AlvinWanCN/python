@@ -20,3 +20,7 @@ newlog.close()
 
 #print str(back)
 #if os.path.exists(newlogfile):  print 'haha'
+
+#!/usr/bin/python
+#coding:utf-8
+import os
