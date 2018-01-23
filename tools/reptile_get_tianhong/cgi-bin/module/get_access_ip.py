@@ -1,7 +1,8 @@
 #!/usr/bin/python
 #coding:utf-8
-import re
-logfile='/root/access.log' #设置日志文件路径
+import re,time
+time.sleep(2)
+logfile='/var/log/nginx/access.log' #设置日志文件路径
 f1=open(logfile,'r')
 all_content=f1.read()
 class getip():
