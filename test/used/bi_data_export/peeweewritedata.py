@@ -1,10 +1,11 @@
 #!/usr/bin/python
 #coding:utf-8
-from peemysqldb import t_nuoh_patient_normal_user as t
-import os,time
 '''
 该脚本用于将指定数据库里符合条件的的指定数据导出，并写入到本地指定文件里面。
 '''
+from peemysqldb import t_nuoh_patient_normal_user as t
+import os,time
+
 bashDir="E:\\" #定义基本目录
 f0=bashDir+'tongban0.txt'#定义存储用户id的文件名
 f1=bashDir+'tongban1.txt'
