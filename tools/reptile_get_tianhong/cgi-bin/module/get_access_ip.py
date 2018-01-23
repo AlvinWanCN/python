@@ -1,7 +1,6 @@
 #!/usr/bin/python
 #coding:utf-8
 import re,time
-time.sleep(2)
 logfile='/var/log/nginx/access.log' #设置日志文件路径
 #logfile='E:\\log.txt'
 f1=open(logfile,'r')
