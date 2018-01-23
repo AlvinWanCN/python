@@ -5,9 +5,6 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 import urllib2,re,time
 from module.fundDB import fund_tab
-from module.get_access_ip import getip
-gip=getip()
-access_ip=gip.ipinfo()
 response = urllib2.urlopen("http://www.howbuy.com/fund/ajax/gmfund/valuation/valuationnav.htm?jjdm=000961")
 content= response.read()
 #print content
@@ -50,7 +47,6 @@ html = """
     </head>
     <body>
         <p>
-        当前IP地址：%s </br>
         上次天弘天弘沪深300指数估值：%s ， 涨幅是 %s 查询时间是 %s </br>
         最新天弘天弘沪深300指数估值：%s ， 涨幅是 %s 当前时间是 %s
         </p>
@@ -66,4 +62,4 @@ html = """
 """
 print("Content-type:text/html")
 print()
-print(html%(access_ip,last_value,last_percent,last_date,latestValue,latestPercent,Nowtime,earnings))
+print(html%(last_value,last_percent,last_date,latestValue,latestPercent,Nowtime,earnings))
