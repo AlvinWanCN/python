@@ -71,7 +71,7 @@ temp = "hello world I am alvin wan! I have 18.2$ I am 18 years old this is pytho
     #+ 匹配前面相邻的规则1到多个。
 #print(re.findall(r'\d+',temp))
 
-    #+ 匹配前面相邻的规则o个到1个。
+    #? 匹配前面相邻的规则o个到1个。
 #print(re.findall(r'\d?',temp))
 
     #{} 大括号，前面相邻的规则指定个数。
