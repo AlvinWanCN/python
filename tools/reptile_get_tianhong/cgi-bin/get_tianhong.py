@@ -17,7 +17,7 @@ latestPercent= re.findall(r'con_ratio_red\">(.*)</',content)[0]
 Nowtime=time.strftime('%Y-%m-%d %H:%M:%S')
 #print(latestValue)
 #print(latestPercent)
-earnings = float(latestValue)*63351.09-79930.07
+earnings = float(latestValue)*63351.09-80000
 
 
 class usedb():
