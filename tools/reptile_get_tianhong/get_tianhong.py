@@ -1,7 +1,7 @@
 #!/usr/bin/python
 #coding:utf-8
 
-import urllib2,re
+import urllib2,re,time
 
 response = urllib2.urlopen("http://www.howbuy.com/fund/ajax/gmfund/valuation/valuationnav.htm?jjdm=000961")
 content= response.read()
@@ -9,6 +9,7 @@ content= response.read()
 latestValue = re.findall(r'con_value con_value_up\">(.*)</',content)
 latestPercent= re.findall(r'con_ratio_red\">(.*)</',content)
 
+Nowtime=time.strftime('%Y年%m月%d日 %H:%M:%S')
 #print(latestValue)
 #print(latestPercent)
 earnings = float(latestValue[0])*63351.09-79930.07
@@ -31,13 +32,10 @@ html = """
         今日天弘天弘沪深300指数涨幅：%s
         </p>
         <p>
-           我的天弘基金收益： %s
+           我的天弘基金收益：￥ %s
         </p>
         <p>
-            Alvin Wan
-        </p>
-        <p>
-            雷利亭你看啥看
+            Alvin Wan  %s
         </p>
     </body>
 </html>
@@ -45,4 +43,4 @@ html = """
 """
 print("Content-type:text/html")
 print()
-print(html%(latestValue,latestPercent,earnings))
+print(html%(latestValue[0],latestPercent[0],earnings,Nowtime))
