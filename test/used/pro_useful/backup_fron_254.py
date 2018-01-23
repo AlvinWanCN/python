@@ -1,5 +1,8 @@
 #!/usr/bin/python
 #coding:utf-8
+'''
+该脚本用于从远程拷贝数据到本地，进行处理后将处理后的数据发送到远程服务器。
+'''
 import time,socket,os,re
 from sophiroth_email import send_mail
 mail_receiver=['alvin.wan@shenmintech.com']
@@ -74,7 +77,7 @@ def _remote_copy():
 
 def _cover_database():
     log_print('Beginning cover new database to local database')
-    if os.system('mysql -u root -pAi-34ffd8 blood_suger_v26 < %s'%_new_database) == 0:
+    if os.system('mysql -u root -ppasswword blood_suger_v26 < %s'%_new_database) == 0:
         log_print('New database cover to local completed')
         log_print('blood_suger_v26 has been cover.')
     else:
