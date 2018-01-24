@@ -5,9 +5,13 @@ reload(sys)
 sys.setdefaultencoding('utf8')
 import urllib2,re,time
 from module.fundDB import fund_tab
-from module.get_access_ip import getip
-gip=getip()
-access_ip=gip.ipinfo()
+try:
+    from module.get_access_ip import getip
+    gip = getip()
+    access_ip = gip.ipinfo()
+except:
+    pass
+
 response = urllib2.urlopen("http://www.howbuy.com/fund/ajax/gmfund/valuation/valuationnav.htm?jjdm=000961")
 content= response.read()
 #print content
@@ -38,9 +42,8 @@ class usedb():
 db=usedb()
 db.query_db()
 db.insert_db()
-print(last_value)
+#print(last_value)
 try:
-    logfile
     html = """
     <html>
         <head>
@@ -66,7 +69,8 @@ try:
     </html>
     """
     finallyHtml=html%(access_ip,last_value,last_percent,last_date,latestValue,latestPercent,Nowtime,earnings,63351.09*float(latestPercent))
-except:
+except Exception,e:
+    print e
     html = """
     <html>
         <head>
@@ -91,7 +95,7 @@ except:
     </html>
     """
     finallyHtml=html%(last_value,last_percent,last_date,latestValue,latestPercent,Nowtime,earnings,63351.09*float(latestPercent))
-
-print("Content-type:text/html")
-print()
-print(finallyHtml)
+finally:
+    print("Content-type:text/html")
+    print()
+    print(finallyHtml)

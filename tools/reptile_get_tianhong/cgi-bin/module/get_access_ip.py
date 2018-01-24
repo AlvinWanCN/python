@@ -11,12 +11,8 @@ elif os.path.exists(log2):
 try:
     f1 = open(logfile, 'r')
     all_content = f1.read()
+    class getip():
+            def ipinfo(self):
+                return re.findall(r'\n(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\s',all_content)[-1] #返回日志文件里最后一个IP
 except:
     pass
-class getip():
-        def ipinfo(self):
-            try:
-                #print all_content
-                return re.findall(r'\n(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})\s',all_content)[-1] #返回日志文件里最后一个IP
-            except:
-                return False
