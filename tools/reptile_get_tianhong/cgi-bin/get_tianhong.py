@@ -11,8 +11,8 @@ access_ip=gip.ipinfo()
 response = urllib2.urlopen("http://www.howbuy.com/fund/ajax/gmfund/valuation/valuationnav.htm?jjdm=000961")
 content= response.read()
 #print content
-latestValue = re.findall(r'con_value con_value_up\">(.*)</',content)[0]
-latestPercent= re.findall(r'con_ratio_red\">(.*)</',content)[0]
+latestValue = re.findall(r'con_value con_value_\w+\">(.*)</',content)[0]
+latestPercent= re.findall(r'con_ratio_\w+\">(.*)</',content)[0]
 
 Nowtime=time.strftime('%Y-%m-%d %H:%M:%S')
 #print(latestValue)
@@ -55,7 +55,8 @@ html = """
         最新天弘天弘沪深300指数估值：%s ， 涨幅是 %s 当前时间是 %s
         </p>
         <p>
-           我的天弘基金收益：￥ %s
+           我的累计天弘基金收益：￥ %s
+           我的今日天弘基金收益：￥ %s
         </p>
         <p>
             Alvin Wan  
@@ -66,4 +67,4 @@ html = """
 """
 print("Content-type:text/html")
 print()
-print(html%(access_ip,last_value,last_percent,last_date,latestValue,latestPercent,Nowtime,earnings))
+print(html%(access_ip,last_value,last_percent,last_date,latestValue,latestPercent,Nowtime,earnings,63351.09*float(latestPercent)))

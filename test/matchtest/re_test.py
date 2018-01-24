@@ -65,6 +65,8 @@ temp = "hello world I am alvin wan! I have 18.2$ I am 18 years old this is pytho
 
 #print(re.findall(r'\d\d([a-z].*)v(\d)','32abcv66'))
 
+    #. 点表示任意字符
+
     #* 匹配前面相邻的规则0到多个
 #print(re.findall(r'\d*',temp)) #最少匹配0个数字，最多匹配n次。
 
