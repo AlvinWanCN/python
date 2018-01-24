@@ -17,6 +17,7 @@ lastdatasql=logdir+'lastdata.sql'
 odb=logdir+'old_database.sql'
 _tables="bloodsugerresult callhangup hospital medicaltask medicinehistory medicineplan medicinetaketime relationship report_setting servicecode tab_medicine user userfile userhba1c userquit userservicecode usertestplan ProjectUserRelation ProjectHospitalRelation t_medicine_medication_history userrealhba1c usertestplan2 userbgtargethistory equipment userhistorytestplan project bgmdevice t_user_join_status t_wj_vote t_wj_user_answer_account t_hospital_join_ranking nuoh_ranking_list nuoh_ranking_list_master userdevice t_hospitai_district_relation t_big_district region"
 os.chdir(logdir)
+
 def nowtime(type): #定义时间格式
     if type == 0:
         return time.strftime('%Y-%m-%d ') #用于邮件标题用的时间格式，精确到日。

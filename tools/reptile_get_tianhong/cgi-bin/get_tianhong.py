@@ -39,32 +39,59 @@ db=usedb()
 db.query_db()
 db.insert_db()
 print(last_value)
-html = """
+try:
+    logfile
+    html = """
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>
+            Alvin 天弘基金收益
+            </title>
+        </head>
+        <body>
+            <p>
+            上次访问IP地址：%s </br>
+            上次天弘天弘沪深300指数估值：%s ， 涨幅是 %s 查询时间是 %s </br>
+            最新天弘天弘沪深300指数估值：%s ， 涨幅是 %s 当前时间是 %s
+            </p>
+            <p>
+                我的累计天弘基金收益：￥ %s </br>
+                我的今日天弘基金收益：￥ %s
+            </p>
+            <p>
+                Alvin Wan  
+            </p>
+        </body>
+    </html>
+    """
+    finallyHtml=html%(access_ip,last_value,last_percent,last_date,latestValue,latestPercent,Nowtime,earnings,63351.09*float(latestPercent))
+except:
+    html = """
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <title>
+            Alvin 天弘基金收益
+            </title>
+        </head>
+        <body>
+            <p>
+            上次天弘天弘沪深300指数估值：%s ， 涨幅是 %s 查询时间是 %s </br>
+            最新天弘天弘沪深300指数估值：%s ， 涨幅是 %s 当前时间是 %s
+            </p>
+            <p>
+                我的累计天弘基金收益：￥ %s </br>
+                我的今日天弘基金收益：￥ %s
+            </p>
+            <p>
+                Alvin Wan  
+            </p>
+        </body>
+    </html>
+    """
+    finallyHtml=html%(last_value,last_percent,last_date,latestValue,latestPercent,Nowtime,earnings,63351.09*float(latestPercent))
 
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>
-        Alvin 天弘基金收益
-        </title>
-    </head>
-    <body>
-        <p>
-        上次访问IP地址：%s </br>
-        上次天弘天弘沪深300指数估值：%s ， 涨幅是 %s 查询时间是 %s </br>
-        最新天弘天弘沪深300指数估值：%s ， 涨幅是 %s 当前时间是 %s
-        </p>
-        <p>
-           我的累计天弘基金收益：￥ %s </br>
-           我的今日天弘基金收益：￥ %s
-        </p>
-        <p>
-            Alvin Wan  
-        </p>
-    </body>
-</html>
-
-"""
 print("Content-type:text/html")
 print()
-print(html%(access_ip,last_value,last_percent,last_date,latestValue,latestPercent,Nowtime,earnings,63351.09*float(latestPercent)))
+print(finallyHtml)
