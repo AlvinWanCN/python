@@ -11,9 +11,10 @@ except:
     pass
 
 response = urllib.request.urlopen("http://www.howbuy.com/fund/ajax/gmfund/valuation/valuationnav.htm?jjdm=000961")
+content=response.read()
 #print content
-latestValue = re.findall(r'con_value con_value_\w+\">(.*)</',content)[0]
-latestPercent= re.findall(r'con_ratio_\w+\">(.*)</',content)[0]
+latestValue = re.findall(r'con_value con_value_\w+\">(.*)</',content.decode('utf-8'))[0]
+latestPercent= re.findall(r'con_ratio_\w+\">(.*)</',content.decode('utf-8'))[0]
 
 Nowtime=time.strftime('%Y-%m-%d %H:%M:%S')
 #print(latestValue)
