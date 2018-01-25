@@ -61,8 +61,8 @@ html = """
     <body>
         <p>
         {ipinfo}
-        上次天弘天弘沪深300指数估值：{last_value} ， 涨幅是{lastPercent} 查询时间是 {last_date} </br>
-        最新天弘天弘沪深300指数估值：{latestValue} ， 涨幅是 {latestPercent} 当前时间是 {Nowtime}
+        上次天弘沪深300指数估值：{last_value} ， 涨幅是{lastPercent} 查询时间是 {last_date} </br>
+        最新天弘沪深300指数估值：{latestValue} ， 涨幅是 {latestPercent} 当前时间是 {Nowtime}
         </p>
         <p>
             我的累计天弘基金收益：￥ {earnings} </br>
