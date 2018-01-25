@@ -65,6 +65,7 @@ html = """
     </body>
 </html>
 """
+###
 print("Content-type:text/html")
 print()
 print(html.format_map(thdict))
