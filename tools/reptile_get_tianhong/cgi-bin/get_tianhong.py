@@ -12,14 +12,10 @@ except:
 thdict={}
 content = urllib.request.urlopen("http://www.howbuy.com/fund/ajax/gmfund/valuation/valuationnav.htm?jjdm=000961").read().decode('utf-8')
 
-#print content
 thdict['latestValue'] = re.findall(r'con.*\">(.*)<',content)[0]
 thdict['latestBenefit']= re.findall(r'con.*\">(.*)<',content)[1]
 thdict['latestPercent']=re.findall(r'con.*\">(.*)<',content)[2]
-
 thdict['Nowtime']=time.strftime('%Y-%m-%d %H:%M:%S')
-#print(latestValue)
-#print(latestPercent)
 thdict['earnings'] = '%.2f' % float(float(thdict['latestValue'])*63351.09-80000)
 thdict['todayEarnings']='%.2f' % float(63351.09*float(thdict['latestBenefit']))
 
@@ -37,13 +33,9 @@ class usedb():
             thdict['last_value']=T.value
             thdict['last_date'] =T.date
             thdict['lastPercent'] =T.percent
-
 db=usedb()
 db.query_db()
 db.insert_db()
-#print(last_value)
-
-
 try:
     thdict['access_ip']=access_ip
     thdict['ipinfo']='上次访问IP地址：{access_ip} </br>'.format_map(thdict)
@@ -74,7 +66,6 @@ html = """
     </body>
 </html>
 """
-#
 print("Content-type:text/html")
 print()
 print(html.format_map(thdict))
