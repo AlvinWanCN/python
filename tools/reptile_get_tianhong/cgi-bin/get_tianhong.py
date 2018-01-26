@@ -1,6 +1,5 @@
 #!/usr/bin/python
-#coding:utf-8
-
+# _*_ coding:utf-8 _*_
 import urllib.request,re,time,json
 try:
     from module.get_access_ip import getip
@@ -25,38 +24,15 @@ queryResult=json.loads(urllib.request.urlopen('{queryUrl}'.format_map(thdict)).r
 thdict.update(queryResult)
 #print (thdict)
 urllib.request.urlopen('{insertUrl}?value={latestValue}&percent={latestPercent}&date={date}'.format_map(thdict)).read().decode('utf-8')
-
 try:
     thdict['access_ip']=access_ip
     thdict['ipinfo']='上次访问IP地址：{access_ip} </br>'.format_map(thdict)
 except:
     thdict['ipinfo']='Welcome'
-
-html = """
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>
-        Alvin 天弘基金收益
-        </title>
-    </head>
-    <body>
-        <p>
-        {ipinfo}
-        上次天弘沪深300指数估值：{lastValue}，涨幅是{lastPercent}，查询时间是 {lastDate} </br>
-        最新天弘沪深300指数估值：{latestValue}，涨幅是{latestPercent}，当前时间是 {Nowtime}
-        </p>
-        <p>
-            我的累计天弘基金收益：￥ {earnings} </br>
-            我的今日天弘基金收益：￥ {todayEarnings}
-        </p>
-        <p>
-            Alvin Wan  
-        </p>
-    </body>
-</html>
-"""
+htmlfile=open('tianhong.html','r',encoding='UTF-8')
+htmlcontent=htmlfile.read()
+#print (htmlcontent)
+htmlfile.close()
 print("Content-type:text/html")
 print()
-print(html.format_map(thdict))
+print(htmlcontent.format_map(thdict))
