@@ -1,8 +1,8 @@
 #!/usr/bin/python
 #coding:utf-8
 
-import urllib.request,re,time
-from module.fundDB import fund_tab
+import urllib.request,re,time,json
+#from module.fundDB import fund_tab
 try:
     from module.get_access_ip import getip
     gip = getip()
@@ -15,26 +15,14 @@ thdict['latestValue'] = re.findall(r'con.*\">(.*)<',content)[0]
 thdict['latestBenefit']= re.findall(r'con.*\">(.*)<',content)[1]
 thdict['latestPercent']=re.findall(r'con.*\">(.*)<',content)[2]
 thdict['Nowtime']=time.strftime('%Y-%m-%d %H:%M:%S')
+thdict['tdate']=re.sub(r'\s','%20',time.strftime('%Y-%m-%d %H:%M:%S'))
 thdict['earnings'] = '%.2f' % float(float(thdict['latestValue'])*75941.89-96000)
 thdict['todayEarnings']='%.2f' % float(75941.89*float(thdict['latestBenefit']))
-
-class usedb():
-    f = fund_tab()
-    def insert_db(self):
-        self.f.value=thdict['latestValue']
-        self.f.percent=thdict['latestPercent']
-        self.f.date=time.strftime('%Y-%m-%d %H:%M:%S')
-        self.f.save()
-    def query_db(self):
-        t_list=self.f.select().order_by(fund_tab.date.desc()).limit(1)
-        for T in t_list:
-            global last_value,last_date,latestPercent
-            thdict['last_value']=T.value
-            thdict['last_date'] =T.date
-            thdict['lastPercent'] =T.percent
-db=usedb()
-db.query_db()
-db.insert_db()
+thdict['insertUrl']='http://t.alv.pub/query'
+thdict['queryUrl']='http://t.alv.pub/insert'
+insertResult=json.loads(urllib.request.urlopen('{insertUrl}?tvalue={latestValue}&tpercent={latestPercent}&tdate={tdate}'.format_map(thdict)).read().decode('utf-8'))
+queryResult=json.loads(urllib.request.urlopen('{queryUrl}'.format_map(thdict)).read().decode('utf-8'))
+thdict.update(queryResult)
 try:
     thdict['access_ip']=access_ip
     thdict['ipinfo']='上次访问IP地址：{access_ip} </br>'.format_map(thdict)

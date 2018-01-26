@@ -9,7 +9,7 @@ newlog=open(newlogfile,'r')
 
 newlog.close()
 
-
+import time
 
 
 #print (old_database)
@@ -22,3 +22,8 @@ newlog.close()
 
 #!/usr/bin/python
 #coding:utf-8
+a={'a':'alvin','b':'natasha'}
+c={'c':'hehe','d':'dadada'}
+print (a)
+a.update(c)
+print (a)
