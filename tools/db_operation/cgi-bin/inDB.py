@@ -11,6 +11,8 @@ tdate=data.getvalue("tdate")
 success = {"success":"True","code":0}
 fail = {"success":"False","code":1}
 
+#success['dateType']=type(tdate)
+print (success)
 if tvalue and tpercent and tdate:
     udb.insertDB(tvalue,tpercent,tdate)
     respense = json.dumps(success)

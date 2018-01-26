@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #coding:utf-8
-import os,re
+import os,re,time
 logdir='E:\\'
 newlogfile=logdir+'latest.log'
 newlog=open(newlogfile,'r')
@@ -9,7 +9,7 @@ newlog=open(newlogfile,'r')
 
 newlog.close()
 
-import time
+import time,json
 
 
 #print (old_database)
@@ -22,8 +22,6 @@ import time
 
 #!/usr/bin/python
 #coding:utf-8
-a={'a':'alvin','b':'natasha'}
-c={'c':'hehe','d':'dadada'}
+a={1:'alvin',2:'data'}
 print (a)
-a.update(c)
-print (a)
+print (json.dumps(a))
