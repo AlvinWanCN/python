@@ -24,7 +24,7 @@ thdict['queryUrl']='http://t.alv.pub/query'
 queryResult=json.loads(urllib.request.urlopen('{queryUrl}'.format_map(thdict)).read().decode('utf-8'))
 thdict.update(queryResult)
 #print (thdict)
-json.loads(urllib.request.urlopen('{insertUrl}?value={latestValue}&percent={latestPercent}&date={date}'.format_map(thdict)).read().decode('utf-8'))
+urllib.request.urlopen('{insertUrl}?value={latestValue}&percent={latestPercent}&date={date}'.format_map(thdict)).read().decode('utf-8')
 
 try:
     thdict['access_ip']=access_ip
