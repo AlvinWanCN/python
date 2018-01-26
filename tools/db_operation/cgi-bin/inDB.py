@@ -8,10 +8,14 @@ data = cgi.FieldStorage()
 tvalue = data.getvalue("tvalue")
 tpercent = data.getvalue("tpercent")
 tdate=data.getvalue("tdate")
-state = {"success":"True","code":0}
+success = {"success":"True","code":0}
+fail = {"success":"False","code":1}
 
-respense = json.dumps(state)
-udb.insertDB(tvalue,tpercent,tdate)
+if tvalue and tpercent and tdate:
+    udb.insertDB(tvalue,tpercent,tdate)
+    respense = json.dumps(success)
+else:
+    respense = json.dumps(fail)
 #lastdata=udb.queryDB()
 #print("Content-type:text/html")
 print("Content-Type: application/json")
