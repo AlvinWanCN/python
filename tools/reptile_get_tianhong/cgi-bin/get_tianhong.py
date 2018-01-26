@@ -18,8 +18,8 @@ thdict['Nowtime']=time.strftime('%Y-%m-%d %H:%M:%S')
 thdict['tdate']=re.sub(r'\s','%20',time.strftime('%Y-%m-%d %H:%M:%S'))
 thdict['earnings'] = '%.2f' % float(float(thdict['latestValue'])*75941.89-96000)
 thdict['todayEarnings']='%.2f' % float(75941.89*float(thdict['latestBenefit']))
-thdict['insertUrl']='http://t.alv.pub/query'
-thdict['queryUrl']='http://t.alv.pub/insert'
+thdict['insertUrl']='http://t.alv.pub/insert'
+thdict['queryUrl']='http://t.alv.pub/query'
 insertResult=json.loads(urllib.request.urlopen('{insertUrl}?tvalue={latestValue}&tpercent={latestPercent}&tdate={tdate}'.format_map(thdict)).read().decode('utf-8'))
 queryResult=json.loads(urllib.request.urlopen('{queryUrl}'.format_map(thdict)).read().decode('utf-8'))
 thdict.update(queryResult)
