@@ -5,16 +5,16 @@ import cgi,json
 
 udb=useDB()
 data = cgi.FieldStorage()
-tvalue = data.getvalue("tvalue")
-tpercent = data.getvalue("tpercent")
-tdate=data.getvalue("tdate")
+value = data.getvalue("value")
+percent = data.getvalue("percent")
+date=data.getvalue("date")
 success = {"success":"True","code":0}
 fail = {"success":"False","code":1}
 
 #success['dateType']=type(tdate)
 print (success)
-if tvalue and tpercent and tdate:
-    udb.insertDB(tvalue,tpercent,tdate)
+if value and percent and date:
+    udb.insertDB(value,percent,date)
     respense = json.dumps(success)
 else:
     respense = json.dumps(fail)

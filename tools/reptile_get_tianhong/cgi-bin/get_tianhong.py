@@ -15,14 +15,15 @@ thdict['latestValue'] = re.findall(r'con.*\">(.*)<',content)[0]
 thdict['latestBenefit']= re.findall(r'con.*\">(.*)<',content)[1]
 thdict['latestPercent']=re.findall(r'con.*\">(.*)<',content)[2]
 thdict['Nowtime']=time.strftime('%Y-%m-%d %H:%M:%S')
-thdict['tdate']=re.sub(r'\s','%20',time.strftime('%Y-%m-%d %H:%M:%S'))
+thdict['date']=re.sub(r'\s','%20',time.strftime('%Y-%m-%d %H:%M:%S'))
 thdict['earnings'] = '%.2f' % float(float(thdict['latestValue'])*75941.89-96000)
 thdict['todayEarnings']='%.2f' % float(75941.89*float(thdict['latestBenefit']))
 thdict['insertUrl']='http://t.alv.pub/insert'
 thdict['queryUrl']='http://t.alv.pub/query'
 queryResult=json.loads(urllib.request.urlopen('{queryUrl}'.format_map(thdict)).read().decode('utf-8'))
 thdict.update(queryResult)
-json.loads(urllib.request.urlopen('{insertUrl}?tvalue={latestValue}&tpercent={latestPercent}&tdate={tdate}'.format_map(thdict)).read().decode('utf-8'))
+#print (thdict)
+json.loads(urllib.request.urlopen('{insertUrl}?value={latestValue}&percent={latestPercent}&date={date}'.format_map(thdict)).read().decode('utf-8'))
 
 try:
     thdict['access_ip']=access_ip
@@ -41,7 +42,7 @@ html = """
     <body>
         <p>
         {ipinfo}
-        上次天弘沪深300指数估值：{last_value} ， 涨幅是{lastPercent} 查询时间是 {last_date} </br>
+        上次天弘沪深300指数估值：{lastValue} ， 涨幅是{lastPercent} 查询时间是 {lastDate} </br>
         最新天弘沪深300指数估值：{latestValue} ， 涨幅是 {latestPercent} 当前时间是 {Nowtime}
         </p>
         <p>

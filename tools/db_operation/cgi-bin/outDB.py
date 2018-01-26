@@ -7,10 +7,10 @@ udb=useDB()
 #state = {"success":"True","code":0}
 #respense = json.dumps(state)
 lastdata=udb.queryDB()
-last_value=lastdata[0]
+lastValue=lastdata[0]
 lastPercent=lastdata[1]
-last_date=lastdata[2].strftime('%Y-%m-%d %H:%M:%S')
-state={"last_value":last_value,"lastPercent":lastPercent,"last_date":last_date}
+lastDate=lastdata[2].strftime('%Y-%m-%d %H:%M:%S')
+state={"lastValue":lastValue,"lastPercent":lastPercent,"lastDate":lastDate}
 respense = json.dumps(state)
 #print (state)
 #print("Content-type:text/html")
