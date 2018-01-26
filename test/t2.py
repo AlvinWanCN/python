@@ -22,6 +22,15 @@ import time,json
 
 #!/usr/bin/python
 #coding:utf-8
-a={1:'alvin',2:'data'}
-print (a)
-print (json.dumps(a))
+from lxml import etree
+from  bs4 import BeautifulSoup as BS
+import urllib.request
+content = urllib.request.urlopen("http://www.howbuy.com/fund/ajax/gmfund/valuation/valuationnav.htm?jjdm=000961").read().decode('utf-8')
+#print (content)
+#html=etree.HTML(content)
+#html = BS(content,'lxml')
+content_list=BS(content,'lxml').find_all('span')
+#print (content_list[0])
+print(re.findall(r'>(.*)<',str(content_list[0]))[0])
+
+#print ( re.findall(r'con.*\">(.*)<',content)[0])
