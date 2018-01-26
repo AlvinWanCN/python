@@ -1,6 +1,7 @@
 #!/usr/bin/python
 # _*_ coding:utf-8 _*_
-import urllib.request,re,time,json
+import urllib.request,re,time,json,os
+dirname=os.getcwd()
 try:
     from module.get_access_ip import getip
     gip = getip()
@@ -29,7 +30,8 @@ try:
     thdict['ipinfo']='上次访问IP地址：{access_ip} </br>'.format_map(thdict)
 except:
     thdict['ipinfo']='Welcome'
-htmlfile=open('tianhong.html','r',encoding='UTF-8')
+filename=os.getcwd()+'/tianhong.html'
+htmlfile=open(filename,'r',encoding='UTF-8')
 htmlcontent=htmlfile.read()
 #print (htmlcontent)
 htmlfile.close()
