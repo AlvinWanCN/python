@@ -2,7 +2,6 @@
 #coding:utf-8
 
 import urllib.request,re,time,json
-#from module.fundDB import fund_tab
 try:
     from module.get_access_ip import getip
     gip = getip()
@@ -10,14 +9,16 @@ try:
 except:
     pass
 thdict={}
+totalFund=75941.89
+totalMoney=96000
 content = urllib.request.urlopen("http://www.howbuy.com/fund/ajax/gmfund/valuation/valuationnav.htm?jjdm=000961").read().decode('utf-8')
 thdict['latestValue'] = re.findall(r'con.*\">(.*)<',content)[0]
 thdict['latestBenefit']= re.findall(r'con.*\">(.*)<',content)[1]
 thdict['latestPercent']=re.findall(r'con.*\">(.*)<',content)[2]
 thdict['Nowtime']=time.strftime('%Y-%m-%d %H:%M:%S')
 thdict['date']=re.sub(r'\s','%20',time.strftime('%Y-%m-%d %H:%M:%S'))
-thdict['earnings'] = '%.2f' % float(float(thdict['latestValue'])*75941.89-96000)
-thdict['todayEarnings']='%.2f' % float(75941.89*float(thdict['latestBenefit']))
+thdict['earnings'] = '%.2f' % float(float(thdict['latestValue'])*totalFund-totalMoney)
+thdict['todayEarnings']='%.2f' % float(totalFund*float(thdict['latestBenefit']))
 thdict['insertUrl']='http://t.alv.pub/insert'
 thdict['queryUrl']='http://t.alv.pub/query'
 queryResult=json.loads(urllib.request.urlopen('{queryUrl}'.format_map(thdict)).read().decode('utf-8'))
@@ -32,6 +33,7 @@ except:
     thdict['ipinfo']='Welcome'
 
 html = """
+<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
