@@ -34,7 +34,7 @@ filename=os.getcwd()+'/tianhong.html'
 if os.path.exists(filename):
     pass
 else:
-    filename=os.getcwd()+'cgi-bin/tianhong.html'
+    filename=os.getcwd()+'/cgi-bin/tianhong.html'
 htmlfile=open(filename,'r',encoding='UTF-8')
 htmlcontent=htmlfile.read()
 #print (htmlcontent)
