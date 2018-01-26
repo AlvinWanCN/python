@@ -22,18 +22,3 @@ newlog.close()
 
 #!/usr/bin/python
 #coding:utf-8
-import os
-alvin='tomath'
-d={'alvin':'sophia','wan':'diana'}
-#print d
-html="""
-yes
-{alvin}
-"""
-#print html
-print (html.format(alvin='natasha'))
-
-#print (html.format(vars()))
-People = {'name':'john', 'age':56}
-
-print ('My name is {name},i am {age} old'.format_map(People))
