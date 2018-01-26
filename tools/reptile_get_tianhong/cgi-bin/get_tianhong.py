@@ -20,9 +20,10 @@ thdict['earnings'] = '%.2f' % float(float(thdict['latestValue'])*75941.89-96000)
 thdict['todayEarnings']='%.2f' % float(75941.89*float(thdict['latestBenefit']))
 thdict['insertUrl']='http://t.alv.pub/insert'
 thdict['queryUrl']='http://t.alv.pub/query'
-insertResult=json.loads(urllib.request.urlopen('{insertUrl}?tvalue={latestValue}&tpercent={latestPercent}&tdate={tdate}'.format_map(thdict)).read().decode('utf-8'))
 queryResult=json.loads(urllib.request.urlopen('{queryUrl}'.format_map(thdict)).read().decode('utf-8'))
 thdict.update(queryResult)
+json.loads(urllib.request.urlopen('{insertUrl}?tvalue={latestValue}&tpercent={latestPercent}&tdate={tdate}'.format_map(thdict)).read().decode('utf-8'))
+
 try:
     thdict['access_ip']=access_ip
     thdict['ipinfo']='上次访问IP地址：{access_ip} </br>'.format_map(thdict)
