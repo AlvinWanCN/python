@@ -15,8 +15,8 @@ thdict['latestValue'] = re.findall(r'con.*\">(.*)<',content)[0]
 thdict['latestBenefit']= re.findall(r'con.*\">(.*)<',content)[1]
 thdict['latestPercent']=re.findall(r'con.*\">(.*)<',content)[2]
 thdict['Nowtime']=time.strftime('%Y-%m-%d %H:%M:%S')
-thdict['earnings'] = '%.2f' % float(float(thdict['latestValue'])*63351.09-80000)
-thdict['todayEarnings']='%.2f' % float(63351.09*float(thdict['latestBenefit']))
+thdict['earnings'] = '%.2f' % float(float(thdict['latestValue'])*75941.89-96000)
+thdict['todayEarnings']='%.2f' % float(75941.89*float(thdict['latestBenefit']))
 
 class usedb():
     f = fund_tab()
