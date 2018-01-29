@@ -29,3 +29,8 @@ class useDB():
         cursor.execute(querySql)
         data=cursor.fetchall()
         return (data)
+
+udb=useDB() #实例化类
+sql='select value,percent,date from fund_tab ORDER by id desc limit 10' #定义查询语句
+result=udb.queryDB(sql) #执行查询，并返回查询结果
+print(result)
