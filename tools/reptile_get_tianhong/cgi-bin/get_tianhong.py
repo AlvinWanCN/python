@@ -4,7 +4,7 @@ import urllib.request,re,time,json,os
 from  bs4 import BeautifulSoup as BS
 dirname=os.getcwd()
 try:
-    from module.get_access_ip import getip
+    from .module.get_access_ip import getip
     gip = getip()
     access_ip = gip.ipinfo()
 except:
