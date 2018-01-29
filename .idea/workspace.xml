@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed46448e-21bf-4791-82f2-c099cc8f8508" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/t1.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/email1.py" afterPath="$PROJECT_DIR$/test/email1.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/email3.py" afterPath="$PROJECT_DIR$/test/email3.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/t2.py" afterPath="$PROJECT_DIR$/test/t2.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/used/pl_data_export/pldata.py" afterPath="$PROJECT_DIR$/test/used/pl_data_export/pldata.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tools/reptile_get_tianhong/cgi-bin/get_tianhong.py" afterPath="$PROJECT_DIR$/tools/reptile_get_tianhong/cgi-bin/get_tianhong.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -131,8 +124,8 @@
       <file leaf-file-name="pldata.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/used/pl_data_export/pldata.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2210">
-              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="288">
+              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="27" />
               <folding>
                 <element signature="e#32#65#0" expanded="true" />
                 <marker date="1517221966176" expanded="true" signature="619:2824" ph="select 账号创建日... *" />
@@ -755,13 +748,6 @@
       <option name="presentableId" value="Default" />
       <updated>1501862174884</updated>
     </task>
-    <task id="LOCAL-00031" summary="ok">
-      <created>1516690432372</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1516690432372</updated>
-    </task>
     <task id="LOCAL-00032" summary="ok">
       <created>1516690702160</created>
       <option name="number" value="00032" />
@@ -1098,7 +1084,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517211808231</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="I changed again.">
+      <created>1517222944257</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1517222944257</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1587,8 +1580,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/used/pl_data_export/pldata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2210">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        <state relative-caret-position="288">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="27" />
           <folding>
             <element signature="e#32#65#0" expanded="true" />
             <marker date="1517221966176" expanded="true" signature="619:2824" ph="select 账号创建日... *" />
