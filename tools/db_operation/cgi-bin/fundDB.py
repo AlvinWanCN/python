@@ -20,8 +20,8 @@ class useDB():
             print (e)
         finally:
             db.close()
-    def queryDB(self):
-        querySql = 'select value,percent,date from fund_tab ORDER by id desc limit 1'
+    def queryDB(self,sql):
+        querySql = sql
         cursor.execute(querySql)
         data=cursor.fetchall()[0]
         return (data)

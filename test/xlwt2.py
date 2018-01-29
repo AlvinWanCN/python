@@ -40,7 +40,6 @@ def write_excel():
     row0 = [u'业务', u'状态', u'北京', u'上海', u'广州', u'深圳', u'状态小计', u'合计']
     column0 = [u'机票', u'船票', u'火车票', u'汽车票', u'其它']
     status = [u'预订', u'出票', u'退票', u'业务小计']
-
     # 生成第一行
     for i in range(0, len(row0)):
         sheet1.write(0, i, row0[i], set_style('Times New Roman', 220, True))
