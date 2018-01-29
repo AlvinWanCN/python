@@ -23,7 +23,7 @@ class useDB():
     def queryDB(self,sql):
         querySql = sql
         cursor.execute(querySql)
-        data=cursor.fetchall()[0]
+        data=cursor.fetchall()
         return (data)
         #print('Value is %s, percent is %s, date is %s '%(data[0],data[1],data[2]))
         #print (cursor.fetchall()[0][0])

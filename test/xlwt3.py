@@ -14,5 +14,5 @@ workbook.save('D:\sophiroth.xls')
 udb=useDB()
 #state = {"success":"True","code":0}
 #respense = json.dumps(state)
-lastdata=udb.queryDB('select value,percent,date from fund_tab ORDER by id desc limit 1')
-print (lastdata)
+lastdata=udb.queryDB('select value,percent,date from fund_tab ORDER by id desc limit 3')
+print (lastdata[0][0])

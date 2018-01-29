@@ -6,7 +6,7 @@ import cgi,json
 udb=useDB()
 #state = {"success":"True","code":0}
 #respense = json.dumps(state)
-lastdata=udb.queryDB('select value,percent,date from fund_tab ORDER by id desc limit 1')
+lastdata=udb.queryDB('select value,percent,date from fund_tab ORDER by id desc limit 1')[0]
 lastValue=lastdata[0]
 lastPercent=lastdata[1]
 lastDate=lastdata[2].strftime('%Y-%m-%d %H:%M:%S')
