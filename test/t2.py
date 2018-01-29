@@ -31,6 +31,11 @@ content = urllib.request.urlopen("http://www.howbuy.com/fund/ajax/gmfund/valuati
 #html = BS(content,'lxml')
 content_list=BS(content,'lxml').find_all('span')
 #print (content_list[0])
-print(re.findall(r'>(.*)<',str(content_list[0]))[0])
+#print(re.findall(r'>(.*)<',str(content_list[0]))[0])
 
 #print ( re.findall(r'con.*\">(.*)<',content)[0])
+
+a=['a','b',3,4,'5']
+
+for i in range(1,len(a)+1):
+    print(i)
