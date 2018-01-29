@@ -4,7 +4,7 @@ import urllib.request,re,time,json,os
 from  bs4 import BeautifulSoup as BS
 dirname=os.getcwd()
 try:
-    from .module.get_access_ip import getip
+    from module.get_access_ip import getip
     gip = getip()
     access_ip = gip.ipinfo()
 except:
@@ -33,7 +33,7 @@ try:
     thdict['access_ip']=access_ip
     thdict['ipinfo']='上次访问IP地址：{access_ip} </br>'.format_map(thdict)
 except:
-    thdict['ipinfo']='Welcome'
+    thdict['ipinfo']='Welcome </br>'
 filename=os.getcwd()+'/tianhong.html'
 if os.path.exists(filename):
     pass
