@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 #coding:utf-8
 import pymysql,time
 #db = pymysql.connect('hostname','user','password','databaseName')
