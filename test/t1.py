@@ -17,4 +17,9 @@ if __name__ =='__main__':
 a=u'你好啊'
 import os
 print(os.getcwd())
-print(os.path.dirname(__file__))
+dir=os.path.dirname(__file__)
+name='t1.py'
+
+if os.path.exists(os.path.join(dir,name)):
+    print('hello')
+    print(os.path.join(dir,name))
