@@ -15,4 +15,6 @@ if __name__ =='__main__':
     print("hello")
 
 a=u'你好啊'
-print(a).encode('utf-8')
+import os
+print(os.getcwd())
+print(os.path.dirname(__file__))
