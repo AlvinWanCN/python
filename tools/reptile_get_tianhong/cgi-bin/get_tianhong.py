@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 # _*_ coding:utf-8 _*_
 import urllib.request,re,time,json,os
 from  bs4 import BeautifulSoup as BS
