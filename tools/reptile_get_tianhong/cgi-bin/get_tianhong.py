@@ -12,7 +12,11 @@ except:
 thdict={}
 totalFund=75941.89
 totalMoney=96000
-content = urllib.request.urlopen("http://www.howbuy.com/fund/ajax/gmfund/valuation/valuationnav.htm?jjdm=000961").read().decode('utf-8')
+host='http://www.howbuy.com'
+path='/fund/ajax/gmfund/valuation/valuationnav.htm'
+querys='jjdm=000961'
+url=host + path + '?' + querys
+content = urllib.request.urlopen(url).read().decode('utf-8')
 '''直接从原文匹配,相似内容比较少的情下比较方便使用这种方法，这里我们注释掉了，不用这种匹配方式
 thdict['latestValue'] = re.findall(r'con.*\">(.*)<',content)[0] 
 thdict['latestBenefit']= re.findall(r'con.*\">(.*)<',content)[1]
