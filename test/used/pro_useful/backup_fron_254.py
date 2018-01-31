@@ -34,8 +34,8 @@ def email_send(status): #定义邮件发送
     newcontent=newOpen_newlog.read()
     try:
         send_mail(mail_receiver, nowtime(0)+status+mail_sub, newcontent)
-    except Exception,e:
-        print e
+    except Exception as e:
+        print (e)
     finally:
         historylog.write(newcontent)
         newOpen_newlog.close()
@@ -118,7 +118,7 @@ def _main1():
         _export_tables()
         _push_tables()
         email_send(' success ')
-    except Exception,e:
+    except Exception as e:
         log_print('detected error! error information as follows:')
         log_print(e)
         email_send(' Exception ')

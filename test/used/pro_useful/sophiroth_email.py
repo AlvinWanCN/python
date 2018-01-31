@@ -27,13 +27,13 @@ def send_mail(to_list, sub, content):
         print(msg)
         server.close()
         return True
-    except Exception, e:
-        print str(e)
+    except Exception as e:
+        print (str(e))
         return False
 
 
 if __name__ == '__main__':
     if send_mail(mailto_list, "主题", "Email Content"):
-        print "发送成功"
+        print ("发送成功")
     else:
-        print "发送失败"
+        print ("发送失败")
