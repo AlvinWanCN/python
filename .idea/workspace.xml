@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed46448e-21bf-4791-82f2-c099cc8f8508" name="Default" comment="">
+    <list default="true" id="ed46448e-21bf-4791-82f2-c099cc8f8508" name="Default" comment="I changed again.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/apis/sms1.py" afterPath="$PROJECT_DIR$/test/apis/sms1.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/python$sms1.coverage" NAME="sms1 Coverage Results" MODIFIED="1517369274307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/apis" />
+    <SUITE FILE_PATH="coverage/python$sms1.coverage" NAME="sms1 Coverage Results" MODIFIED="1517369391819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/apis" />
     <SUITE FILE_PATH="coverage/python$email.coverage" NAME="email Coverage Results" MODIFIED="1515997620764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test/used/pro_useful" />
     <SUITE FILE_PATH="coverage/python$get_access_ip.coverage" NAME="get_access_ip Coverage Results" MODIFIED="1517267336183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tools/reptile_get_tianhong/cgi-bin/module" />
     <SUITE FILE_PATH="coverage/python$disposefile1.coverage" NAME="disposefile1 Coverage Results" MODIFIED="1515654662702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
@@ -94,7 +93,7 @@
         <entry file="file://$PROJECT_DIR$/test/apis/sms1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="98">
-              <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+              <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
               <folding>
                 <element signature="e#33#59#0" expanded="true" />
               </folding>
@@ -697,13 +696,6 @@
       <option name="presentableId" value="Default" />
       <updated>1501862174884</updated>
     </task>
-    <task id="LOCAL-00042" summary="1">
-      <created>1516702620974</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1516702620974</updated>
-    </task>
     <task id="LOCAL-00043" summary="1">
       <created>1516702787748</created>
       <option name="number" value="00043" />
@@ -1040,7 +1032,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517369220294</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="I changed again.">
+      <created>1517369297652</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1517369297652</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1523,7 +1522,7 @@
     <entry file="file://$PROJECT_DIR$/test/apis/sms1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
-          <caret line="10" column="39" lean-forward="false" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <caret line="10" column="48" lean-forward="true" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
           <folding>
             <element signature="e#33#59#0" expanded="true" />
           </folding>
