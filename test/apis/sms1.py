@@ -6,8 +6,8 @@ import ssl
 host = 'https://fesms.market.alicloudapi.com'
 path = '/sms/'
 method = 'GET'
-appcode = '5ca26b23675f4b7f81b365d115184cdf'
-querys = 'code=11111111&phone=17621591123&skin=12'
+appcode = '4ca26b23675f4b7f81b365d115184cdf'
+querys = 'code=11111111&phone=17621591111&skin=6'
 bodys = {}
 url = host + path + '?' + querys
 
