@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ed46448e-21bf-4791-82f2-c099cc8f8508" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/alpha/cgi-bin/index.py" afterPath="$PROJECT_DIR$/project/alpha/cgi-bin/index.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/alpha/index.html" afterPath="$PROJECT_DIR$/project/alpha/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -114,7 +114,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/index.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -126,21 +126,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/alpha/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            <state relative-caret-position="224">
+              <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
               <folding>
                 <element signature="e#568#574#0" expanded="true" />
                 <element signature="e#575#581#0" expanded="true" />
                 <element signature="e#582#588#0" expanded="true" />
-                <element signature="e#599#605#0" expanded="true" />
-                <element signature="e#662#668#0" expanded="true" />
-                <element signature="e#669#675#0" expanded="true" />
+                <element signature="e#656#662#0" expanded="true" />
+                <element signature="e#663#669#0" expanded="true" />
+                <element signature="e#670#676#0" expanded="true" />
                 <element signature="e#676#682#0" expanded="true" />
-                <element signature="e#682#688#0" expanded="true" />
-                <element signature="e#753#759#0" expanded="true" />
+                <element signature="e#747#753#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -274,9 +273,9 @@
         <option value="$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/__init__.py" />
         <option value="$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/get_weather.py" />
         <option value="$PROJECT_DIR$/project/alpha/cgi-bin/index.html" />
-        <option value="$PROJECT_DIR$/project/alpha/index.html" />
         <option value="$PROJECT_DIR$/test/t1.py" />
         <option value="$PROJECT_DIR$/project/alpha/cgi-bin/index.py" />
+        <option value="$PROJECT_DIR$/project/alpha/index.html" />
       </list>
     </option>
   </component>
@@ -287,10 +286,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1563" />
-    <option name="y" value="130" />
-    <option name="width" value="1440" />
-    <option name="height" value="1034" />
+    <option name="x" value="-1928" />
+    <option name="y" value="32" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -492,7 +491,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="get_weather" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -733,10 +732,10 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.index" />
-        <item index="2" class="java.lang.String" itemvalue="Python.t1" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.index" />
+        <item index="3" class="java.lang.String" itemvalue="Python.t1" />
         <item index="4" class="java.lang.String" itemvalue="Python.get_weather" />
       </list>
     </recent_temporary>
@@ -751,13 +750,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501862174884</updated>
-    </task>
-    <task id="LOCAL-00051" summary="I changed again.">
-      <created>1516865401556</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1516865401557</updated>
     </task>
     <task id="LOCAL-00052" summary="I changed again.">
       <created>1516866112778</created>
@@ -1095,7 +1087,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517477906549</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="I changed again.">
+      <created>1517478656446</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1517478656447</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1128,15 +1127,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1563" y="130" width="1440" height="1034" extended-state="0" />
+    <frame x="-1928" y="32" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19592696" sideWeight="0.4888889" order="0" side_tool="false" content_ui="tabs" x="-1919" y="126" width="302" height="624" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1453125" sideWeight="0.4888889" order="0" side_tool="false" content_ui="tabs" x="-1919" y="126" width="302" height="624" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32173914" sideWeight="0.54359245" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32799146" sideWeight="0.48541668" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5021882" sideWeight="0.45640758" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4903846" sideWeight="0.45640758" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15729167" sideWeight="0.51111114" order="2" side_tool="true" content_ui="tabs" />
@@ -1554,36 +1553,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/alpha/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="35" lean-forward="false" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="e#568#574#0" expanded="true" />
-            <element signature="e#575#581#0" expanded="true" />
-            <element signature="e#582#588#0" expanded="true" />
-            <element signature="e#599#605#0" expanded="true" />
-            <element signature="e#662#668#0" expanded="true" />
-            <element signature="e#669#675#0" expanded="true" />
-            <element signature="e#676#682#0" expanded="true" />
-            <element signature="e#682#688#0" expanded="true" />
-            <element signature="e#753#759#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/reptile_get_tianhong/cgi-bin/module/chicang.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1632,6 +1605,31 @@
           <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
           <folding>
             <element signature="e#33#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/alpha/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="41" lean-forward="true" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding>
+            <element signature="e#568#574#0" expanded="true" />
+            <element signature="e#575#581#0" expanded="true" />
+            <element signature="e#582#588#0" expanded="true" />
+            <element signature="e#656#662#0" expanded="true" />
+            <element signature="e#663#669#0" expanded="true" />
+            <element signature="e#670#676#0" expanded="true" />
+            <element signature="e#676#682#0" expanded="true" />
+            <element signature="e#747#753#0" expanded="true" />
           </folding>
         </state>
       </provider>
