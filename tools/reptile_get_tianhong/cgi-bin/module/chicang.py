@@ -5,7 +5,7 @@ from  bs4 import BeautifulSoup as BS
 from lxml import etree
 baseurl="http://finance.sina.com.cn/fund/quotesold/000961/bc.shtml"
 #baseurl='http://www.howbuy.com/fund/ajax/gmfund/valuation/valuationnav.htm?jjdm=000961'
-content = urllib.request.urlopen(baseurl).read().decode('gbk')
+content = urllib.request.urlopen(baseurl).read().decode('gb2312')
 #print(content)
 #content_list=BS(content,'lxml').find_all('td')
 #print(len(content_list))

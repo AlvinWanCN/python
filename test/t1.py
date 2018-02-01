@@ -1,6 +1,5 @@
 #!/usr/bin/python
 #coding:utf-8
+import time
 
-aa=print(222)
-
-print(aa)
+print(time.strftime('%Y %m-%d %H:%M:%S'))
