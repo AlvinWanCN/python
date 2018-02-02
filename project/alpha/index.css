@@ -46,7 +46,7 @@ ul li{
 
 }
 p{
-    text-indent: 30px;
+    text-indent: 0px;
     color: fuchsia;
    /* text-decoration: line-through;*/
     text-shadow: 1px 0px 0px #ff0000 ; /* 00 红 ff绿 00蓝*/
