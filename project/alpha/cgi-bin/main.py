@@ -17,7 +17,7 @@ weather={}
 weather['weatherStatus']=get_weather.get_status()
 weather['weatherMax']=get_weather.get_max_temperature()
 weather['weatherMin']=get_weather.get_min_temperature()
-filename=os.path.join(os.path.dirname(__file__),'index.html')
+filename=os.path.join(os.path.dirname(__file__),'main.html')
 htmlfile=open(filename,'r',encoding='UTF-8')
 htmlcontent=htmlfile.read()
 htmlfile.close()
