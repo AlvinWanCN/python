@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ed46448e-21bf-4791-82f2-c099cc8f8508" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/alphaDB.py" afterPath="$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/alphaDB.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/alpha/index.html" afterPath="$PROJECT_DIR$/project/alpha/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/alpha/images/黑园.ico" afterPath="$PROJECT_DIR$/project/alpha/images/favicon.ico" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -116,7 +117,7 @@
       <file leaf-file-name="alpha.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/alpha/html/alpha.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-300">
+            <state relative-caret-position="-48">
               <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
               <folding />
             </state>
@@ -126,7 +127,7 @@
       <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/alpha/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-236">
+            <state relative-caret-position="768">
               <caret line="48" column="15" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="15" />
               <folding />
             </state>
@@ -145,10 +146,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alphaDB.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="alphaDB.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/alphaDB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="304">
               <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
               <folding>
                 <marker date="1517551399774" expanded="true" signature="344:428" ph="insert into account... " />
@@ -170,20 +171,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/alpha/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="10" column="102" lean-forward="false" selection-start-line="10" selection-start-column="102" selection-end-line="10" selection-end-column="102" />
+            <state relative-caret-position="224">
+              <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
               <folding>
-                <element signature="e#517#523#0" expanded="true" />
-                <element signature="e#524#530#0" expanded="true" />
-                <element signature="e#531#537#0" expanded="true" />
-                <element signature="e#605#611#0" expanded="true" />
-                <element signature="e#612#618#0" expanded="true" />
-                <element signature="e#619#625#0" expanded="true" />
-                <element signature="e#625#631#0" expanded="true" />
-                <element signature="e#696#702#0" expanded="true" />
+                <element signature="e#577#583#0" expanded="true" />
+                <element signature="e#584#590#0" expanded="true" />
+                <element signature="e#591#597#0" expanded="true" />
+                <element signature="e#665#671#0" expanded="true" />
+                <element signature="e#672#678#0" expanded="true" />
+                <element signature="e#679#685#0" expanded="true" />
+                <element signature="e#685#691#0" expanded="true" />
+                <element signature="e#756#762#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -285,9 +286,9 @@
         <option value="$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/html/new_account.html" />
         <option value="$PROJECT_DIR$/project/alpha/cgi-bin/index.html" />
         <option value="$PROJECT_DIR$/project/alpha/html/new_account.html" />
-        <option value="$PROJECT_DIR$/project/alpha/index.html" />
         <option value="$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/new_account.py" />
         <option value="$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/alphaDB.py" />
+        <option value="$PROJECT_DIR$/project/alpha/index.html" />
       </list>
     </option>
   </component>
@@ -464,33 +465,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cgi-bin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alpha" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cgi-bin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="alpha_modules" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -530,7 +505,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.new_account">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration default="false" name="get_weather" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -755,11 +730,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.new_account" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.new_account.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.get_weather" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="Python.new_account" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.new_account.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.get_weather" />
       </list>
     </recent_temporary>
   </component>
@@ -773,13 +748,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501862174884</updated>
-    </task>
-    <task id="LOCAL-00070" summary="I changed again.">
-      <created>1516959397230</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1516959397230</updated>
     </task>
     <task id="LOCAL-00071" summary="I changed again.">
       <created>1516959723806</created>
@@ -1117,7 +1085,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517551301482</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="I changed again.">
+      <created>1517551402604</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1517551402604</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1152,7 +1127,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1453125" sideWeight="0.4888889" order="0" side_tool="false" content_ui="tabs" x="-1919" y="126" width="302" height="624" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1453125" sideWeight="0.4888889" order="0" side_tool="false" content_ui="tabs" x="-1919" y="126" width="302" height="624" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32173914" sideWeight="0.54359245" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1539,22 +1514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/alpha/html/alpha.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-300">
-          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/alpha/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236">
-          <caret line="48" column="15" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/reptile_get_tianhong/cgi-bin/get_tianhong.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -1589,28 +1548,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/alpha/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="102" lean-forward="false" selection-start-line="10" selection-start-column="102" selection-end-line="10" selection-end-column="102" />
-          <folding>
-            <element signature="e#517#523#0" expanded="true" />
-            <element signature="e#524#530#0" expanded="true" />
-            <element signature="e#531#537#0" expanded="true" />
-            <element signature="e#605#611#0" expanded="true" />
-            <element signature="e#612#618#0" expanded="true" />
-            <element signature="e#619#625#0" expanded="true" />
-            <element signature="e#625#631#0" expanded="true" />
-            <element signature="e#696#702#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tools/db_operation/cgi-bin/fundDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/alphaDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+          <folding>
+            <marker date="1517551399774" expanded="true" signature="344:428" ph="insert into account... " />
+            <marker date="1517551399774" expanded="true" signature="344:429" ph="insert into account... " />
+            <marker date="1517551399774" expanded="true" signature="344:431" ph="insert into account... " />
+            <marker date="1517551399774" expanded="true" signature="344:432" ph="insert into account... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1624,15 +1579,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/alphaDB.py">
+    <entry file="file://$PROJECT_DIR$/project/alpha/html/alpha.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="-48">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/alpha/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="48" column="15" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/alpha/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
           <folding>
-            <marker date="1517551399774" expanded="true" signature="344:428" ph="insert into account... " />
-            <marker date="1517551399774" expanded="true" signature="344:429" ph="insert into account... " />
-            <marker date="1517551399774" expanded="true" signature="344:431" ph="insert into account... " />
-            <marker date="1517551399774" expanded="true" signature="344:432" ph="insert into account... " />
+            <element signature="e#577#583#0" expanded="true" />
+            <element signature="e#584#590#0" expanded="true" />
+            <element signature="e#591#597#0" expanded="true" />
+            <element signature="e#665#671#0" expanded="true" />
+            <element signature="e#672#678#0" expanded="true" />
+            <element signature="e#679#685#0" expanded="true" />
+            <element signature="e#685#691#0" expanded="true" />
+            <element signature="e#756#762#0" expanded="true" />
           </folding>
         </state>
       </provider>
