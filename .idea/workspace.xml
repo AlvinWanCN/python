@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed46448e-21bf-4791-82f2-c099cc8f8508" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/alphaDB.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/new_account.py" afterPath="$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/new_account.py" />
     </list>
@@ -83,18 +84,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="inDB.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/db_operation/cgi-bin/inDB.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="24" selection-end-column="15" />
-              <folding>
-                <element signature="e#33#57#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -148,8 +137,33 @@
       <file leaf-file-name="new_account.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/new_account.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <folding>
+                <element signature="e#33#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="alphaDB.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/alphaDB.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="17" />
+              <folding>
+                <marker date="1517550048007" expanded="true" signature="344:426" ph="insert into account... " />
+                <marker date="1517550048007" expanded="true" signature="344:430" ph="insert into account... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fundDB.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tools/db_operation/cgi-bin/fundDB.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -174,26 +188,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="t1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/t1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-              <folding>
-                <element signature="e#32#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -234,7 +236,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/used/pro_useful/email.py" />
         <option value="$PROJECT_DIR$/test/used/pro_useful/__init__.py" />
         <option value="$PROJECT_DIR$/test/used/__init__.py" />
         <option value="$USER_HOME$/Desktop/test.md" />
@@ -284,6 +285,7 @@
         <option value="$PROJECT_DIR$/project/alpha/cgi-bin/index.html" />
         <option value="$PROJECT_DIR$/project/alpha/html/new_account.html" />
         <option value="$PROJECT_DIR$/project/alpha/index.html" />
+        <option value="$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/alphaDB.py" />
         <option value="$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/new_account.py" />
       </list>
     </option>
@@ -771,13 +773,6 @@
       <option name="presentableId" value="Default" />
       <updated>1501862174884</updated>
     </task>
-    <task id="LOCAL-00061" summary="I changed again.">
-      <created>1516953583474</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1516953583475</updated>
-    </task>
     <task id="LOCAL-00062" summary="I changed again.">
       <created>1516953663374</created>
       <option name="number" value="00062" />
@@ -1114,7 +1109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517548686308</updated>
     </task>
-    <option name="localTasksCounter" value="110" />
+    <task id="LOCAL-00110" summary="I changed again.">
+      <created>1517548988732</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1517548988732</updated>
+    </task>
+    <option name="localTasksCounter" value="111" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1257,7 +1259,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tools/db_operation/__init__.py" />
     <entry file="file://$PROJECT_DIR$/tools/db_operation/fundDB.py" />
     <entry file="file://$PROJECT_DIR$/tools/db_operation/inDB.py" />
     <entry file="file://$PROJECT_DIR$/mysql1.py">
@@ -1397,13 +1398,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tools/reptile_get_tianhong/cgi-bin/module/get_access_ip.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tools/db_operation/cgi-bin/fundDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
@@ -1611,11 +1605,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/new_account.py">
+    <entry file="file://$PROJECT_DIR$/tools/db_operation/cgi-bin/fundDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/alphaDB.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <marker date="1517550048007" expanded="true" signature="344:426" ph="insert into account... " />
+            <marker date="1517550048007" expanded="true" signature="344:430" ph="insert into account... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/new_account.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="e#33#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
