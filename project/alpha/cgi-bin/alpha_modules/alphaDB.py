@@ -13,12 +13,12 @@ db = pymysql.connect(
 cursor=db.cursor()
 class useDB():
     def insertDB(self,a,b,c,d):
-        inserSql="insert into account set username = %s ,password = %s,application = %s,comment=%s"%(a,b,c,d)
+        inserSql="insert into account set username = '%s' ,password = '%s',application = '%s',comment='%s'"%(a,b,c,d)
         try:
-            #cursor.execute(inserSql)
+            cursor.execute(inserSql)
             db.commit()
-            #return ('commit success')
-            return (inserSql)
+            return ('commit success')
+            #return (inserSql)
         except Exception as e:
             db.rollback()
             print('commit failed')
