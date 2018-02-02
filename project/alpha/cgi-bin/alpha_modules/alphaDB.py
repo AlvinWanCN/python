@@ -21,7 +21,7 @@ class useDB():
         except Exception as e:
             db.rollback()
             print('commit failed')
-            return (inserSql+e)
+            return (str(inserSql+e))
         finally:
             db.close()
     def queryDB(self,sql):

@@ -149,10 +149,10 @@
         <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/alphaDB.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+              <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding>
-                <marker date="1517550734950" expanded="true" signature="344:426" ph="insert into account... " />
-                <marker date="1517550734950" expanded="true" signature="344:430" ph="insert into account... " />
+                <marker date="1517550796555" expanded="true" signature="344:426" ph="insert into account... " />
+                <marker date="1517550796555" expanded="true" signature="344:430" ph="insert into account... " />
               </folding>
             </state>
           </provider>
@@ -772,13 +772,6 @@
       <option name="presentableId" value="Default" />
       <updated>1501862174884</updated>
     </task>
-    <task id="LOCAL-00066" summary="I changed again.">
-      <created>1516957959399</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1516957959399</updated>
-    </task>
     <task id="LOCAL-00067" summary="I changed again.">
       <created>1516958159260</created>
       <option name="number" value="00067" />
@@ -1115,7 +1108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517550714985</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="I changed again.">
+      <created>1517550737766</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1517550737767</updated>
+    </task>
+    <option name="localTasksCounter" value="116" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1625,10 +1625,10 @@
     <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/alphaDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="23" column="29" lean-forward="false" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
           <folding>
-            <marker date="1517550734950" expanded="true" signature="344:426" ph="insert into account... " />
-            <marker date="1517550734950" expanded="true" signature="344:430" ph="insert into account... " />
+            <marker date="1517550796555" expanded="true" signature="344:426" ph="insert into account... " />
+            <marker date="1517550796555" expanded="true" signature="344:430" ph="insert into account... " />
           </folding>
         </state>
       </provider>
