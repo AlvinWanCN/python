@@ -82,3 +82,15 @@ div{
 .alien {
     width: 255px;
 }
+form {
+
+    color: blue;
+    align: center;
+}
+
+table {
+    align: center;
+}
+td{
+    color: #95de0c;
+}

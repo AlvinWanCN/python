@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed46448e-21bf-4791-82f2-c099cc8f8508" name="Default" comment="">
+    <list default="true" id="ed46448e-21bf-4791-82f2-c099cc8f8508" name="Default" comment="I changed again.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/alpha/index.css" afterPath="$PROJECT_DIR$/project/alpha/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/alpha/index.html" afterPath="$PROJECT_DIR$/project/alpha/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,43 +72,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="get_tianhong.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/reptile_get_tianhong/cgi-bin/get_tianhong.py">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/alpha/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="31" />
-              <folding>
-                <element signature="e#42#79#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_account.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/alpha/html/new_account.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/index.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+            <state relative-caret-position="220">
+              <caret line="90" column="7" lean-forward="true" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -116,55 +85,18 @@
       <file leaf-file-name="alpha.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/alpha/html/alpha.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-48">
-              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+            <state relative-caret-position="121">
+              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/alpha/index.css">
+      <file leaf-file-name="new_account.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/alpha/html/new_account.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="768">
-              <caret line="48" column="15" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_account.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/new_account.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
-              <folding>
-                <element signature="e#33#43#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="alphaDB.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/alphaDB.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-              <folding>
-                <marker date="1517551399774" expanded="true" signature="344:428" ph="insert into account... " />
-                <marker date="1517551399774" expanded="true" signature="344:429" ph="insert into account... " />
-                <marker date="1517551399774" expanded="true" signature="344:431" ph="insert into account... " />
-                <marker date="1517551399774" expanded="true" signature="344:432" ph="insert into account... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fundDB.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tools/db_operation/cgi-bin/fundDB.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="144">
+              <caret line="9" column="69" lean-forward="false" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="83" />
               <folding />
             </state>
           </provider>
@@ -173,18 +105,9 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/alpha/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-              <folding>
-                <element signature="e#568#574#0" expanded="true" />
-                <element signature="e#575#581#0" expanded="true" />
-                <element signature="e#582#588#0" expanded="true" />
-                <element signature="e#656#662#0" expanded="true" />
-                <element signature="e#663#669#0" expanded="true" />
-                <element signature="e#670#676#0" expanded="true" />
-                <element signature="e#676#682#0" expanded="true" />
-                <element signature="e#747#753#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -229,6 +152,7 @@
       <find>method</find>
       <find>module</find>
       <find>eq</find>
+      <find>center</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -280,13 +204,13 @@
         <option value="$PROJECT_DIR$/test/t1.py" />
         <option value="$PROJECT_DIR$/project/alpha/cgi-bin/index.py" />
         <option value="$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/get_weather.py" />
-        <option value="$PROJECT_DIR$/project/alpha/index.css" />
         <option value="$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/html/alpha.css" />
         <option value="$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/html/new_account.html" />
         <option value="$PROJECT_DIR$/project/alpha/cgi-bin/index.html" />
         <option value="$PROJECT_DIR$/project/alpha/html/new_account.html" />
         <option value="$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/new_account.py" />
         <option value="$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/alphaDB.py" />
+        <option value="$PROJECT_DIR$/project/alpha/index.css" />
         <option value="$PROJECT_DIR$/project/alpha/index.html" />
       </list>
     </option>
@@ -298,10 +222,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="32" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-1965" />
+    <option name="y" value="68" />
+    <option name="width" value="1440" />
+    <option name="height" value="1034" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -464,7 +388,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="html" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -747,13 +671,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501862174884</updated>
-    </task>
-    <task id="LOCAL-00072" summary="I changed again.">
-      <created>1516960181173</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1516960181173</updated>
     </task>
     <task id="LOCAL-00073" summary="I changed again.">
       <created>1516960290865</created>
@@ -1091,7 +1008,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517552353956</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="I changed again.">
+      <created>1517552528484</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1517552528484</updated>
+    </task>
+    <option name="localTasksCounter" value="122" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1124,15 +1048,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <frame x="-1965" y="68" width="1440" height="1034" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1453125" sideWeight="0.4888889" order="0" side_tool="false" content_ui="tabs" x="-1919" y="126" width="302" height="624" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19592696" sideWeight="0.4888889" order="0" side_tool="false" content_ui="tabs" x="-1919" y="126" width="302" height="624" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32173914" sideWeight="0.54359245" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32799146" sideWeight="0.48541668" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4903846" sideWeight="0.45640758" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5021882" sideWeight="0.45640758" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15729167" sideWeight="0.51111114" order="2" side_tool="true" content_ui="tabs" />
@@ -1523,18 +1447,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/alpha/html/new_account.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="60" lean-forward="true" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/index.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4">
           <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1572,42 +1496,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/alpha/html/alpha.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48">
-          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        <state relative-caret-position="121">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/alpha/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="48" column="15" lean-forward="false" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="15" />
+        <state relative-caret-position="220">
+          <caret line="90" column="7" lean-forward="true" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/index.html">
+    <entry file="file://$PROJECT_DIR$/project/alpha/html/new_account.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="144">
+          <caret line="9" column="69" lean-forward="false" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="83" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/alpha/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="e#568#574#0" expanded="true" />
-            <element signature="e#575#581#0" expanded="true" />
-            <element signature="e#582#588#0" expanded="true" />
-            <element signature="e#656#662#0" expanded="true" />
-            <element signature="e#663#669#0" expanded="true" />
-            <element signature="e#670#676#0" expanded="true" />
-            <element signature="e#676#682#0" expanded="true" />
-            <element signature="e#747#753#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
