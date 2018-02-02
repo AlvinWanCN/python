@@ -17,11 +17,11 @@ class useDB():
         try:
             cursor.execute(inserSql)
             db.commit()
-            print('commit success')
+            return ('commit success')
         except Exception as e:
             db.rollback()
             print('commit failed')
-            print (e)
+            return (e)
         finally:
             db.close()
     def queryDB(self,sql):
