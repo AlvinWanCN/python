@@ -13,7 +13,7 @@ db = pymysql.connect(
 cursor=db.cursor()
 class useDB():
     def insertDB(self,a,b,c,d):
-        inserSql="insert into account set username = %s ,password = '%s',application = '%s',comment='%s'" %(a,b,c,d)
+        inserSql="insert into account set username = %s ,password = %s,application = %s,comment=%s"%(a,b,c,d)
         try:
             cursor.execute(inserSql)
             db.commit()
