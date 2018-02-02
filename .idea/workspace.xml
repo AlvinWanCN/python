@@ -136,8 +136,8 @@
       <file leaf-file-name="new_account.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/new_account.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            <state relative-caret-position="128">
+              <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
               <folding>
                 <element signature="e#33#43#0" expanded="true" />
               </folding>
@@ -772,13 +772,6 @@
       <option name="presentableId" value="Default" />
       <updated>1501862174884</updated>
     </task>
-    <task id="LOCAL-00063" summary="I changed again.">
-      <created>1516956262469</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1516956262469</updated>
-    </task>
     <task id="LOCAL-00064" summary="I changed again.">
       <created>1516957380829</created>
       <option name="number" value="00064" />
@@ -1115,7 +1108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517550051364</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="I changed again.">
+      <created>1517550359101</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1517550359101</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1625,8 +1625,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/new_account.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="8" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        <state relative-caret-position="128">
+          <caret line="14" column="68" lean-forward="false" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
           <folding>
             <element signature="e#33#43#0" expanded="true" />
           </folding>
