@@ -12,7 +12,7 @@ new_account['password']=data.getvalue('password')
 new_account['comment']=data.getvalue('comment')
 if new_account['app'] and new_account['username'] and new_account['password']:
     udb.insertDB(new_account['username'],new_account['password'],new_account['app'],new_account['comment'])
-    new_account['result'] ='{app}的{username}账号已存储到数据。'.format_map(new_account)
+    new_account['result'] ='{app}的{username}账号已存储到数据库。'.format_map(new_account)
 else:
     new_account['result']='缺少关键内容，application,username,password 是必填项。'
 #print(new_account)
