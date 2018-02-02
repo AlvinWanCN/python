@@ -12,8 +12,8 @@ def get_status(): ##获取天气状况
     return weather_status
 
 def get_max_temperature(): #获取最高气温
-    weather_max_temperature=re.findall(r'</b>(\d)<i>',str(content))[0]
+    weather_max_temperature=re.findall(r'</b>(-?\d)<i>',str(content))[0]
     return weather_max_temperature
 def get_min_temperature():#获取最低气温
-    weather_min__temperature=re.findall(r'</b>(\d)<i>',str(content))[1]
+    weather_min__temperature=re.findall(r'</b>(-?\d)<i>',str(content))[1]
     return weather_min__temperature
