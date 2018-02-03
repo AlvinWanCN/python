@@ -10,9 +10,6 @@ import time,json
 #print cc
 #print (re.findall(r'late.*',('\n'.join(os.listdir(logdir)))))
 
-#print str(back)
-#if os.path.exists(newlogfile):  print 'haha'
-
 #!/usr/bin/python
 #coding:utf-8
 

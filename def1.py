@@ -23,8 +23,8 @@ aa(21,'alvin')
 
 #*args代表任意个参数，**kwargs代表字典
 def test(*args,**kwargs):
-    print args,type(args)
-    print kwargs,type(kwargs)
+    print (args,type(args))
+    print (kwargs,type(kwargs))
     return args,kwargs
 
 print(test('hello','yes'))
