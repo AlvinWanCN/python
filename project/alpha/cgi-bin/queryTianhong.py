@@ -39,7 +39,7 @@ thdict['earnings'] = '%.2f' % float(float(thdict['latestValue'])*totalFund-total
 thdict['todayEarnings']='%.2f' % float(totalFund*float(thdict['latestBenefit']))
 thdict['insertUrl']='http://t.alv.pub/cgi-bin/insertFund.py'
 thdict['queryUrl']='http://t.alv.pub/cgi-bin/queryFund.py'
-thdict.update(json.loads(urllib.request.urlopen('{queryUrl}'.format_map(thdict))))
+thdict.update(json.loads(urllib.request.urlopen('{queryUrl}'.format_map(thdict)).read().decode('utf-8')))
 #print (thdict)
 urllib.request.urlopen('{insertUrl}?value={latestValue}&percent={latestPercent}&date={date}'.format_map(thdict))
 try:
