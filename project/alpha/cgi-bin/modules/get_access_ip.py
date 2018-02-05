@@ -2,7 +2,8 @@
 #coding:utf-8
 import re,time
 import os
-log1='/var/log/nginx/access.log'
+#log1='/var/log/nginx/access.log'
+log1='/home/alvin/docker_service/nginx/logs/access.log'
 log2='E:\\log.txt'
 if os.path.exists(log1):
     logfile = log1
