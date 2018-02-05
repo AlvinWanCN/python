@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed46448e-21bf-4791-82f2-c099cc8f8508" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/alpha/css/common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/project/alpha/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html1/csstest/index.css" afterPath="$PROJECT_DIR$/html1/csstest/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html1/index4.html" afterPath="$PROJECT_DIR$/html1/index4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/alpha/html/new_account.html" afterPath="$PROJECT_DIR$/project/alpha/html/new_account.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/alpha/index.html" afterPath="$PROJECT_DIR$/project/alpha/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/alpha/html/main.html" afterPath="$PROJECT_DIR$/project/alpha/html/main.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -123,18 +120,28 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html1/csstest/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-91">
+            <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/alpha/html/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="224">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/alpha/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -143,8 +150,8 @@
       <file leaf-file-name="new_account.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/alpha/html/new_account.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="34" column="6" lean-forward="false" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+            <state relative-caret-position="144">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -160,11 +167,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/alpha/css/common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="128">
+              <caret line="8" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -222,7 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/used/pl_data_export/pldata.py" />
         <option value="$PROJECT_DIR$/tools/reptile_get_tianhong/cgi-bin/module/get_access_ip.py" />
         <option value="$PROJECT_DIR$/tools/db_operation/cgi-bin/fundDB.py" />
         <option value="$PROJECT_DIR$/tools/db_operation/cgi-bin/inDB.py" />
@@ -246,7 +252,6 @@
         <option value="$PROJECT_DIR$/project/alpha/cgi-bin/index.html" />
         <option value="$PROJECT_DIR$/project/alpha/cgi-bin/alpha_modules/new_account.py" />
         <option value="$PROJECT_DIR$/project/alpha/index.css" />
-        <option value="$PROJECT_DIR$/project/alpha/html/main.html" />
         <option value="$PROJECT_DIR$/project/alpha/js/index.js" />
         <option value="$PROJECT_DIR$/project/alpha/html/jstest.html" />
         <option value="$PROJECT_DIR$/test/t2.py" />
@@ -273,6 +278,8 @@
         <option value="$PROJECT_DIR$/project/alpha/index.html" />
         <option value="$PROJECT_DIR$/project/alpha/html/new_account.html" />
         <option value="$PROJECT_DIR$/project/alpha/css/common.css" />
+        <option value="$PROJECT_DIR$/project/alpha/css/main.css" />
+        <option value="$PROJECT_DIR$/project/alpha/html/main.html" />
       </list>
     </option>
   </component>
@@ -425,20 +432,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="python" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -483,27 +476,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.new_account.html">
+  <component name="RunManager" selected="JavaScript Debug.main.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python/project/alpha/index.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="t1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/t1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="queryTianhong" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -529,6 +503,9 @@
       <method />
     </configuration>
     <configuration default="false" name="new_account.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python/project/alpha/html/new_account.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="main.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python/project/alpha/html/main.html">
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -701,18 +678,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.db" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="2" class="java.lang.String" itemvalue="Python.t1" />
-      <item index="3" class="java.lang.String" itemvalue="Python.queryTianhong" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index4.html" />
-      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.new_account.html" />
+      <item index="2" class="java.lang.String" itemvalue="Python.queryTianhong" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index4.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.new_account.html" />
+      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.main.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.new_account.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index4.html" />
-        <item index="3" class="java.lang.String" itemvalue="Python.queryTianhong" />
-        <item index="4" class="java.lang.String" itemvalue="Python.t1" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.main.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.new_account.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index4.html" />
+        <item index="4" class="java.lang.String" itemvalue="Python.queryTianhong" />
       </list>
     </recent_temporary>
   </component>
@@ -726,13 +703,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501862174884</updated>
-    </task>
-    <task id="LOCAL-00097" summary="I changed again.">
-      <created>1517398340264</created>
-      <option name="number" value="00097" />
-      <option name="presentableId" value="LOCAL-00097" />
-      <option name="project" value="LOCAL" />
-      <updated>1517398340264</updated>
     </task>
     <task id="LOCAL-00098" summary="I changed again.">
       <created>1517470900953</created>
@@ -1070,7 +1040,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517808488147</updated>
     </task>
-    <option name="localTasksCounter" value="146" />
+    <task id="LOCAL-00146" summary="I changed again.">
+      <created>1517813309229</created>
+      <option name="number" value="00146" />
+      <option name="presentableId" value="LOCAL-00146" />
+      <option name="project" value="LOCAL" />
+      <updated>1517813309229</updated>
+    </task>
+    <option name="localTasksCounter" value="147" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1213,7 +1190,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/test1.py" />
     <entry file="file://$PROJECT_DIR$/class1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1505,14 +1481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/alpha/html/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/html1/index4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -1555,22 +1523,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/html1/csstest/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/alpha/html/new_account.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" column="6" lean-forward="false" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/alpha/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -1579,10 +1531,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/html1/csstest/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/alpha/html/new_account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/alpha/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/alpha/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/alpha/html/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
           <folding />
         </state>
       </provider>
