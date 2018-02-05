@@ -47,7 +47,7 @@ try:
     thdict['ipinfo']='上次访问IP地址：{access_ip} </br>'.format_map(thdict)
 except:
     thdict['ipinfo']='Welcome </br>'
-filename=os.path.join(os.path.dirname(os.path.dirname(__file__)),'/html/tianhong.html')
+filename=os.path.join(os.path.dirname(__file__),'../html/tianhong.html')
 htmlfile=open(filename,'r',encoding='UTF-8')
 htmlcontent=htmlfile.read()
 #print (htmlcontent)
