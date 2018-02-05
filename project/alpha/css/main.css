@@ -1,13 +1,5 @@
-.main {
-    text-align: center;
-    /* background-color: #fff; */
-    border-radius: 20px;
-    width: 700px;
-    height: 200px;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+a{
+    color: #0c8b13;
+    font-weight: bold ;
+    font-family: 微软雅黑;
 }
