@@ -41,7 +41,7 @@ thdict['insertUrl']='http://t.alv.pub/cgi-bin/insertFund.py'
 thdict['queryUrl']='http://t.alv.pub/cgi-bin/queryFund.py'
 thdict.update(json.loads(urllib.request.urlopen('{queryUrl}'.format_map(thdict)).read().decode('utf-8')))
 #print (thdict)
-urllib.request.urlopen('{insertUrl}?value={latestValue}&percent={latestPercent}&date={date}'.format_map(thdict)).read().decode('utf-8')
+urllib.request.urlopen('{insertUrl}?value={latestValue}&percent={latestPercent}&date={date}'.format_map(thdict))
 try:
     thdict['access_ip']=access_ip
     thdict['ipinfo']='上次访问IP地址：{access_ip} </br>'.format_map(thdict)
