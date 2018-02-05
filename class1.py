@@ -54,19 +54,19 @@ c=Bird()
 print(c)
 c.eat()
 '''
-'''
+
 class Bird:
     def __init__(self,name):
         print('I am a bird, my name is %s I am so happy'%name)
 
 b = Bird('alvin')
-'''
-'''
+
+
 class Bird:
     def __del__(self):
         print('go die')
 
 b = Bird()
-del b
-'''
+#del b
+
 
