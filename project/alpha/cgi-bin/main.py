@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 #coding:utf-8
-import alpha_modules.get_weather as get_weather
+import modules.get_weather as get_weather
 import os,time,cgi,hashlib
 indexDick={}
 def md5(alpha):
