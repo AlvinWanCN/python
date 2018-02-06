@@ -2,7 +2,7 @@
 #conding:utf-8
 import cgi,json
 data=cgi.FieldStorage()
-all=data.getvalue(all())
+#all=data.getvalue(all())
 text=data.getvalue('text')
 file=data.getvalue('file')
 
