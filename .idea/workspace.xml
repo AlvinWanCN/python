@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ed46448e-21bf-4791-82f2-c099cc8f8508" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/alpha/html/t2.html" afterPath="$PROJECT_DIR$/project/alpha/html/t2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/project/alpha/html/uploadFile.py" afterPath="$PROJECT_DIR$/project/alpha/cgi-bin/uploadFile.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/project/alpha/html/t2.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
-              <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <caret line="7" column="66" lean-forward="false" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -96,7 +96,7 @@
         </entry>
       </file>
       <file leaf-file-name="uploadFile.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/alpha/html/uploadFile.py">
+        <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/uploadFile.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
               <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -413,18 +413,18 @@
       <recent name="http://finance.sina.com.cn/fund/quotesold/000961/bc.shtml" />
       <recent name="http://t.alv.pub" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\gitcenter\python\test" />
-      <recent name="D:\gitcenter\python\project\alpha\cgi-bin" />
-      <recent name="D:\gitcenter\python\project\alpha\html" />
-      <recent name="D:\gitcenter\python\project\alpha\css" />
-      <recent name="D:\gitcenter\python\project\alpha\images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/project/alpha/html" />
       <recent name="D:\gitcenter\python\project\alpha\html" />
       <recent name="D:\gitcenter\python\project\alpha\cgi-bin" />
       <recent name="D:\gitcenter\python\project\alpha\cgi-bin\modules" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gitcenter\python\project\alpha\cgi-bin" />
+      <recent name="D:\gitcenter\python\test" />
+      <recent name="D:\gitcenter\python\project\alpha\html" />
+      <recent name="D:\gitcenter\python\project\alpha\css" />
+      <recent name="D:\gitcenter\python\project\alpha\images" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -481,7 +481,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/alpha/html/uploadFile.py" />
+      <option name="SCRIPT_NAME" value="D:\gitcenter\python\project\alpha\cgi-bin\uploadFile.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -685,13 +685,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1501862174884</updated>
-    </task>
-    <task id="LOCAL-00109" summary="I changed again.">
-      <created>1517548686308</created>
-      <option name="number" value="00109" />
-      <option name="presentableId" value="LOCAL-00109" />
-      <option name="project" value="LOCAL" />
-      <updated>1517548686308</updated>
     </task>
     <task id="LOCAL-00110" summary="I changed again.">
       <created>1517548988732</created>
@@ -1029,7 +1022,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517885746205</updated>
     </task>
-    <option name="localTasksCounter" value="158" />
+    <task id="LOCAL-00158" summary="I changed again.">
+      <created>1517886043652</created>
+      <option name="number" value="00158" />
+      <option name="presentableId" value="LOCAL-00158" />
+      <option name="project" value="LOCAL" />
+      <updated>1517886043652</updated>
+    </task>
+    <option name="localTasksCounter" value="159" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1064,7 +1064,7 @@
   <component name="ToolWindowManager">
     <frame x="-1918" y="49" width="1918" height="1038" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21976866" sideWeight="0.8464419" order="0" side_tool="false" content_ui="tabs" x="-1919" y="126" width="302" height="624" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21976866" sideWeight="0.8464419" order="0" side_tool="false" content_ui="tabs" x="-1919" y="126" width="302" height="624" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32173914" sideWeight="0.54359245" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1525,7 +1525,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/alpha/html/uploadFile.py">
+    <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/uploadFile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -1552,7 +1552,7 @@
     <entry file="file://$PROJECT_DIR$/project/alpha/html/t2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+          <caret line="7" column="66" lean-forward="false" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
           <folding />
         </state>
       </provider>
