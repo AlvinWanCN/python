@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ed46448e-21bf-4791-82f2-c099cc8f8508" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/alpha/cgi-bin/uploadFile.py" afterPath="$PROJECT_DIR$/project/alpha/cgi-bin/uploadFile.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -75,11 +74,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="t2.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="t2.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/alpha/html/t2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="66" lean-forward="false" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+            <state relative-caret-position="192">
+              <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -88,14 +87,14 @@
       <file leaf-file-name="new_account.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/alpha/html/new_account.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
+            <state relative-caret-position="63">
               <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uploadFile.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="uploadFile.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/uploadFile.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="256">
@@ -686,13 +685,6 @@
       <option name="presentableId" value="Default" />
       <updated>1501862174884</updated>
     </task>
-    <task id="LOCAL-00111" summary="I changed again.">
-      <created>1517550051364</created>
-      <option name="number" value="00111" />
-      <option name="presentableId" value="LOCAL-00111" />
-      <option name="project" value="LOCAL" />
-      <updated>1517550051364</updated>
-    </task>
     <task id="LOCAL-00112" summary="I changed again.">
       <created>1517550359101</created>
       <option name="number" value="00112" />
@@ -1029,7 +1021,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517886200731</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <task id="LOCAL-00160" summary="I changed again.">
+      <created>1517886393659</created>
+      <option name="number" value="00160" />
+      <option name="presentableId" value="LOCAL-00160" />
+      <option name="project" value="LOCAL" />
+      <updated>1517886393659</updated>
+    </task>
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1543,9 +1542,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/uploadFile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project/alpha/html/new_account.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
+        <state relative-caret-position="63">
           <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
           <folding />
         </state>
@@ -1553,16 +1560,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project/alpha/html/t2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="66" lean-forward="false" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/alpha/cgi-bin/uploadFile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        <state relative-caret-position="192">
+          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
           <folding />
         </state>
       </provider>
