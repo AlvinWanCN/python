@@ -20,15 +20,4 @@ import time,json
 #print(re.findall(r'>(.*)<',str(content_list[0]))[0])
 
 #print ( re.findall(r'con.*\">(.*)<',content)[0])
-import xlwt
-import time
-
-time.clock()
-f = xlwt.Workbook()
-sheet1 = f.add_sheet('A Demo')
-for i in range(0,10000):
-    for g in range(0,10):
-        sheet1.write(i,g,'Alvin Wan')
-f.save('D:\\xlwt.xls')
-t = time.clock()
-print(t)
+print(os.path.join(os.path.dirname(__file__),'aaa'))

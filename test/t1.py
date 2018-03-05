@@ -12,8 +12,8 @@ def md5(alpha):
 
 print(md5('sophiroth'))
 '''
-from pk.patest1 import alpha
+import re
+a='inet 192.168.127.78/24 brd 192.168.127.255 scope global dynamic ens32'
+print(re.findall(r'\s(.*)\/',a))
 
-aaa=alpha()
 
-print(aaa.a)
