@@ -12,8 +12,27 @@ def md5(alpha):
 
 print(md5('sophiroth'))
 '''
-import re
-a='inet 192.168.127.78/24 brd 192.168.127.255 scope global dynamic ens32'
-print(re.findall(r'\s(.*)\/',a))
 
 
+def makeAlvHost(hostname,ip):
+    return\
+        {'ip': ip, 'hostname': hostname+'.alv.pub'}
+hostDict={}
+hostDict['zabbix']=makeAlvHost('zabbix','51')
+hostDict['db1']=makeAlvHost('db1','52')
+hostDict['db2']=makeAlvHost('db2','53')
+lastIPNumber='51'
+
+'''
+for i in hostDict:
+    if lastIPNumber == i['ip']:
+        os.system('hostname %s'%i['hostname'])
+        os.system('echo %s > /etc/hostname'%i['hostname'])
+        break
+
+print(hostDict)
+'''
+for hostname in hostDict:
+    if hostDict[hostname]['ip'] == lastIPNumber:
+        print(hostDict[hostname]['hostname'])
+        break
