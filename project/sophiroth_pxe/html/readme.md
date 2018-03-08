@@ -3,4 +3,4 @@
 
 ## Directory introduction
 
-Store javascript files.   
+Store html files.   
