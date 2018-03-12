@@ -13,6 +13,7 @@ def get_status(): ##获取天气状况
         if weather_status:
             return weather_status
     except Exception as e:
+        print(e)
         return "unknow"
 
 def get_max_temperature(): #获取最高气温
@@ -22,6 +23,7 @@ def get_max_temperature(): #获取最高气温
         if weather_max_temperature:
             return weather_max_temperature
     except Exception as e:
+        print(e)
         return "unknow"
 def get_min_temperature():#获取最低气温
     try:
@@ -29,4 +31,5 @@ def get_min_temperature():#获取最低气温
         if weather_min__temperature:
             return weather_min__temperature
     except Exception as e:
+        print(e)
         return "unknow"
