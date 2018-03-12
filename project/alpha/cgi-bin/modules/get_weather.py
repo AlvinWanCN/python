@@ -22,10 +22,15 @@ def get_max_temperature(): #获取最高气温
     else:
         return "unknow"
 def get_min_temperature():#获取最低气温
-    weather_min__temperature=re.findall(r'</b>(-?\d)<i>',str(content))[-1]
+    weather_min__temperature=re.findall(r'</b>(-?\d+)<i>',str(content))[-1]
     if weather_min__temperature:
         return weather_min__temperature
     else:
         return "unknow"
 
 #print (html.xpath('//*[@id="wrap"]/div[4]/div[1]/div[3]/dl[1]/dd/ul/li[2]/span/text()')[0])
+
+print(get_status())
+print(get_max_temperature())
+print(get_min_temperature())
+#print(content)
