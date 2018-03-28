@@ -20,4 +20,14 @@ import time,json
 #print(re.findall(r'>(.*)<',str(content_list[0]))[0])
 
 #print ( re.findall(r'con.*\">(.*)<',content)[0])
-print(os.path.join(os.path.dirname(__file__),'aaa'))
+#print(os.path.join(os.path.dirname(__file__),'aaa'))
+
+#print(os.path.basename('t3.py'))
+#print(__file__)
+
+a=5
+while a > 2:
+    print(a)
+    a=a-1
+
+print(33,44)

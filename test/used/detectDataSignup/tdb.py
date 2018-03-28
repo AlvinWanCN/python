@@ -3,7 +3,7 @@
 import pymysql,time
 #db = pymysql.connect('hostname','user','password','databaseName')
 db = pymysql.connect(
-    host='localhost',
+    host='pdb',
     password='alpha',
     user='alpha',
     db='alvinlife',
@@ -11,9 +11,10 @@ db = pymysql.connect(
     charset='utf8'
 )
 cursor=db.cursor()
+
 class useDB():
-    def insertDB(self,a,b,c,d):
-        inserSql="insert into account set username = '%s' ,password = '%s',application = '%s',comment='%s'"%(a,b,c,d)
+    def insertDB(self,a,b,c,d,e,f):
+        inserSql="insert into signup VALUES (%s,%s,%s,%s,%s,%s)"%(a,b,c,d,e,f)
         try:
             cursor.execute(inserSql)
             db.commit()
