@@ -12,8 +12,24 @@ def md5(alpha):
 
 print(md5('sophiroth'))
 '''
-import re
-f1=open('F:/alvin.txt','r')
-f1Content=f1.read()
-print(f1Content)
-print(re.sub(r'.*192.168.38.4.*','',f1Content))
+import os
+import logging
+import urllib2,time
+from lxml import etree
+import re,os,subprocess
+host = 'http://tianqi.2345.com'
+path = '/today-58362.htm'
+url = host + path
+content = urllib2.urlopen(url).read()
+html = etree.HTML(content)
+#本脚本兼容linux下python2
+
+import sys
+
+reload(sys)
+sys.setdefaultencoding('utf8')
+
+from selenium import webdriver
+
+if 0 == 1 or 99 == 99:
+    print 99
